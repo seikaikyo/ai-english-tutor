@@ -7,3 +7,6 @@ venv/
 .vite/
 *.log
 .DS_Store
+
+# IDE
+.vscode/
