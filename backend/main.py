@@ -25,6 +25,7 @@ class ChatMessage(BaseModel):
 class ChatRequest(BaseModel):
     messages: list[ChatMessage]
     system_prompt: str = ''
+    max_tokens: int = 0
 
 
 class ChatResponse(BaseModel):
@@ -37,9 +38,10 @@ def chat(req: ChatRequest):
         raise HTTPException(status_code=500, detail='ANTHROPIC_API_KEY not set')
 
     try:
+        max_tokens = min(req.max_tokens, settings.max_tokens_limit) if req.max_tokens > 0 else settings.default_max_tokens
         resp = client.messages.create(
             model=settings.model,
-            max_tokens=settings.max_tokens,
+            max_tokens=max_tokens,
             system=req.system_prompt or 'You are a helpful English tutor.',
             messages=[m.model_dump() for m in req.messages],
         )

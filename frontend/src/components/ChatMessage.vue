@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import type { ChatMessage } from '../composables/useChat'
 
 const props = defineProps<{
@@ -10,6 +11,13 @@ const emit = defineEmits<{
 }>()
 
 const isUser = props.message.role === 'user'
+
+const formattedNote = computed(() => {
+  if (!props.message.grammarNote) return ''
+  return props.message.grammarNote
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\n/g, '<br>')
+})
 </script>
 
 <template>
@@ -25,22 +33,30 @@ const isUser = props.message.role === 'user'
         <i class="pi pi-volume-up" />
       </button>
     </div>
+    <div v-if="message.grammarNote" class="grammar-note">
+      <div class="grammar-note-header">
+        <i class="pi pi-pencil" />
+        <span>Grammar Note</span>
+      </div>
+      <div class="grammar-note-body" v-html="formattedNote" />
+    </div>
   </div>
 </template>
 
 <style scoped>
 .chat-message {
   display: flex;
+  flex-direction: column;
   margin-bottom: 12px;
   padding: 0 16px;
 }
 
 .chat-message.user {
-  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .chat-message.assistant {
-  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .bubble {
@@ -94,5 +110,35 @@ const isUser = props.message.role === 'user'
 
 .speak-btn:hover {
   color: var(--color-user-bubble);
+}
+
+.grammar-note {
+  max-width: 80%;
+  margin-top: 4px;
+  padding: 8px 12px;
+  border-left: 3px solid #4f46e5;
+  background: #f0f0ff;
+  border-radius: 0 8px 8px 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #374151;
+}
+
+.grammar-note-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  font-size: 12px;
+  color: #4f46e5;
+  margin-bottom: 4px;
+}
+
+.grammar-note-header i {
+  font-size: 11px;
+}
+
+.grammar-note-body :deep(strong) {
+  color: #1e1b4b;
 }
 </style>

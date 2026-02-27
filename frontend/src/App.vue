@@ -5,12 +5,14 @@ import Toast from 'primevue/toast'
 import Select from 'primevue/select'
 import InputText from 'primevue/inputtext'
 import Button from 'primevue/button'
+import ToggleSwitch from 'primevue/toggleswitch'
 import ChatHistory from './components/ChatHistory.vue'
 import VoiceButton from './components/VoiceButton.vue'
 import PhraseHelper from './components/PhraseHelper.vue'
 import { useChat } from './composables/useChat'
 import { useSpeechRecognition } from './composables/useSpeechRecognition'
 import { useSpeechSynthesis } from './composables/useSpeechSynthesis'
+import { exportChat } from './utils/chat-export'
 
 const toast = useToast()
 const chat = useChat()
@@ -86,6 +88,11 @@ function handleScenarioChange(event: any) {
     life: 2000,
   })
 }
+
+// 匯出對話紀錄
+function handleExport() {
+  exportChat(chat.messages.value, chat.currentScenario.value.label)
+}
 </script>
 
 <template>
@@ -103,6 +110,19 @@ function handleScenarioChange(event: any) {
           placeholder="Scenario"
           class="scenario-select"
           @update:modelValue="handleScenarioChange"
+        />
+        <div class="grammar-toggle">
+          <label for="grammar-mode">Grammar</label>
+          <ToggleSwitch v-model="chat.grammarMode.value" inputId="grammar-mode" />
+        </div>
+        <Button
+          icon="pi pi-download"
+          severity="secondary"
+          text
+          rounded
+          title="Export chat"
+          :disabled="chat.messages.value.length === 0"
+          @click="handleExport"
         />
         <Button
           icon="pi pi-trash"
@@ -188,6 +208,15 @@ function handleScenarioChange(event: any) {
 
 .scenario-select {
   width: 180px;
+}
+
+.grammar-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--color-muted);
+  white-space: nowrap;
 }
 
 .interim-text {
