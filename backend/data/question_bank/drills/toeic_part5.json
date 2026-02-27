@@ -1,0 +1,242 @@
+[
+  {
+    "id": "toeic_part5_001",
+    "sentence": "The company's annual report _______ that profits had increased by 15% over the previous year.",
+    "options": ["indicate", "indicated", "indicating", "indication"],
+    "answer": "indicated",
+    "explanation": "Past tense 'indicated' is needed because the report described a past finding. 'Indicate' is present tense. 'Indicating' is a present participle, which cannot serve as the main verb. 'Indication' is a noun and cannot function as a verb.",
+    "response": "---\n**Question 1**\n\nChoose the word or phrase that best completes the sentence.\n\nThe company's annual report _______ that profits had increased by 15% over the previous year.\n\n1. indicate\n2. indicated\n3. indicating\n4. indication\n\n---\n\n**Answer: 2. indicated**\n\nThe main verb must be in the past tense because the report described a completed finding. 'Indicate' (present tense) does not match the time frame. 'Indicating' is a participle and cannot stand alone as the main verb. 'Indication' is a noun and cannot fill a verb slot."
+  },
+  {
+    "id": "toeic_part5_002",
+    "sentence": "All employees are required to submit their expense reports _______ the end of each month.",
+    "options": ["by", "until", "during", "since"],
+    "answer": "by",
+    "explanation": "'By' expresses a deadline, meaning no later than the stated time. 'Until' describes a continuous action up to a point, not a one-time deadline. 'During' indicates a period within which something happens. 'Since' marks the starting point of an ongoing action.",
+    "response": "---\n**Question 2**\n\nChoose the word or phrase that best completes the sentence.\n\nAll employees are required to submit their expense reports _______ the end of each month.\n\n1. by\n2. until\n3. during\n4. since\n\n---\n\n**Answer: 1. by**\n\n'By' sets a deadline, meaning the submission must happen no later than the end of the month. 'Until' implies a continuous state or action (e.g., waiting until the end), which doesn't fit submitting a report. 'During' refers to a time span, and 'since' marks a starting point for ongoing actions."
+  },
+  {
+    "id": "toeic_part5_003",
+    "sentence": "The new marketing strategy _______ by the board of directors at last Tuesday's meeting.",
+    "options": ["approved", "was approved", "has approved", "approving"],
+    "answer": "was approved",
+    "explanation": "Passive voice is required because the subject 'strategy' receives the action rather than performing it. 'Approved' (active past) would need the board as the subject. 'Has approved' is active and present perfect. 'Approving' is a participle with no auxiliary verb.",
+    "response": "---\n**Question 3**\n\nChoose the word or phrase that best completes the sentence.\n\nThe new marketing strategy _______ by the board of directors at last Tuesday's meeting.\n\n1. approved\n2. was approved\n3. has approved\n4. approving\n\n---\n\n**Answer: 2. was approved**\n\nThe subject 'strategy' is the receiver of the action, not the doer, so the passive voice 'was approved' is correct. The past tense passive (was + past participle) fits the time marker 'last Tuesday.' Active forms like 'approved' or 'has approved' would require the board to be the subject."
+  },
+  {
+    "id": "toeic_part5_004",
+    "sentence": "Ms. Chen is responsible _______ overseeing all quality control procedures at the factory.",
+    "options": ["to", "for", "of", "with"],
+    "answer": "for",
+    "explanation": "The fixed phrase is 'responsible for.' This is a standard prepositional collocation in business English. 'Responsible to' means answerable to a person (a superior). 'Responsible of' and 'responsible with' are not standard expressions.",
+    "response": "---\n**Question 4**\n\nChoose the word or phrase that best completes the sentence.\n\nMs. Chen is responsible _______ overseeing all quality control procedures at the factory.\n\n1. to\n2. for\n3. of\n4. with\n\n---\n\n**Answer: 2. for**\n\n'Responsible for' is the fixed prepositional phrase used to describe duties or tasks someone handles. 'Responsible to' means accountable to a person (e.g., responsible to the manager). 'Responsible of' and 'responsible with' are not standard English expressions."
+  },
+  {
+    "id": "toeic_part5_005",
+    "sentence": "The travel budget for this quarter is _______ than what was allocated last year.",
+    "options": ["more tight", "tighter", "tightest", "most tight"],
+    "answer": "tighter",
+    "explanation": "When comparing two things using 'than,' the comparative form is required. 'Tighter' is the correct comparative of the one-syllable adjective 'tight.' 'Tightest' is the superlative, used for comparing three or more items without 'than.' 'More tight' and 'most tight' are non-standard forms.",
+    "response": "---\n**Question 5**\n\nChoose the word or phrase that best completes the sentence.\n\nThe travel budget for this quarter is _______ than what was allocated last year.\n\n1. more tight\n2. tighter\n3. tightest\n4. most tight\n\n---\n\n**Answer: 2. tighter**\n\nThe word 'than' signals a comparison between two things, requiring the comparative form. One-syllable adjectives like 'tight' form the comparative by adding '-er,' giving 'tighter.' 'Tightest' is the superlative for three or more items. 'More tight' and 'most tight' are non-standard; short adjectives do not use 'more/most.'"
+  },
+  {
+    "id": "toeic_part5_006",
+    "sentence": "The HR department encourages all new hires _______ the employee handbook before their first day.",
+    "options": ["read", "reading", "to read", "having read"],
+    "answer": "to read",
+    "explanation": "The verb 'encourage' takes the pattern 'encourage + object + to-infinitive.' The correct form is 'encourages all new hires to read.' 'Reading' (gerund) does not fit this pattern. 'Having read' (perfect gerund) and the bare infinitive 'read' are also grammatically incorrect after this construction.",
+    "response": "---\n**Question 6**\n\nChoose the word or phrase that best completes the sentence.\n\nThe HR department encourages all new hires _______ the employee handbook before their first day.\n\n1. read\n2. reading\n3. to read\n4. having read\n\n---\n\n**Answer: 3. to read**\n\nThe verb 'encourage' follows the pattern: encourage + object + to-infinitive. So 'encourages all new hires to read' is correct. Verbs like encourage, require, ask, and advise all use this structure. 'Reading' (gerund) and 'having read' (perfect gerund) do not fit; neither does the bare infinitive 'read.'"
+  },
+  {
+    "id": "toeic_part5_007",
+    "sentence": "The number of customer complaints _______ decreased since the new service protocol was introduced.",
+    "options": ["have", "has", "are", "were"],
+    "answer": "has",
+    "explanation": "The subject is 'the number,' which is singular and takes a singular verb 'has.' A common error is treating 'complaints' (the noun after 'of') as the subject. The rule is: 'the number of + plural noun' takes a singular verb, while 'a number of + plural noun' takes a plural verb.",
+    "response": "---\n**Question 7**\n\nChoose the word or phrase that best completes the sentence.\n\nThe number of customer complaints _______ decreased since the new service protocol was introduced.\n\n1. have\n2. has\n3. are\n4. were\n\n---\n\n**Answer: 2. has**\n\nThe grammatical subject is 'the number,' which is singular. Singular subjects take singular verbs, so 'has' is correct. A key TOEIC rule: 'the number of + plural noun' = singular verb; 'a number of + plural noun' = plural verb. Do not be distracted by 'complaints,' which is part of the prepositional phrase, not the subject."
+  },
+  {
+    "id": "toeic_part5_008",
+    "sentence": "The contract _______ if either party fails to meet the agreed-upon terms.",
+    "options": ["will terminate", "terminates", "would terminate", "terminated"],
+    "answer": "will terminate",
+    "explanation": "This is a real conditional (Type 1) describing a likely future result: 'If + present simple, will + base verb.' The 'if' clause uses 'fails' (present simple), so the result clause takes 'will terminate.' 'Would terminate' is used in hypothetical (Type 2) conditionals with past tense in the if-clause.",
+    "response": "---\n**Question 8**\n\nChoose the word or phrase that best completes the sentence.\n\nThe contract _______ if either party fails to meet the agreed-upon terms.\n\n1. will terminate\n2. terminates\n3. would terminate\n4. terminated\n\n---\n\n**Answer: 1. will terminate**\n\nThis is a Type 1 (real) conditional: 'If + present simple, will + base verb.' The if-clause uses 'fails,' so the main clause uses 'will terminate.' This structure describes a real or likely future outcome. 'Would terminate' belongs to Type 2 conditionals, which use a past tense in the if-clause to describe hypothetical situations."
+  },
+  {
+    "id": "toeic_part5_009",
+    "sentence": "The operations manager spoke _______ about the need to reduce overhead costs during the quarterly review.",
+    "options": ["emphatic", "emphasis", "emphatically", "emphasize"],
+    "answer": "emphatically",
+    "explanation": "An adverb is needed to modify the verb 'spoke.' 'Emphatically' is the adverb form. 'Emphatic' is an adjective. 'Emphasis' is a noun. 'Emphasize' is a verb. Adverbs modifying verbs typically end in '-ly.'",
+    "response": "---\n**Question 9**\n\nChoose the word or phrase that best completes the sentence.\n\nThe operations manager spoke _______ about the need to reduce overhead costs during the quarterly review.\n\n1. emphatic\n2. emphasis\n3. emphatically\n4. emphasize\n\n---\n\n**Answer: 3. emphatically**\n\nThe blank follows the verb 'spoke' and needs to describe how speaking was done, so an adverb is required. 'Emphatically' is the adverb form of 'emphatic.' 'Emphatic' is an adjective (modifies nouns). 'Emphasis' is a noun. 'Emphasize' is a verb. Recognizing word families is a core TOEIC Part 5 skill."
+  },
+  {
+    "id": "toeic_part5_010",
+    "sentence": "_______ the delayed shipment, the warehouse team managed to fulfill all customer orders on time.",
+    "options": ["Despite", "Although", "However", "Even though"],
+    "answer": "Despite",
+    "explanation": "'Despite' is a preposition and is followed by a noun phrase ('the delayed shipment'), not a clause. 'Although' and 'Even though' are conjunctions that must introduce a full clause with a subject and verb. 'However' is a conjunctive adverb that connects independent clauses, usually preceded by a semicolon or period.",
+    "response": "---\n**Question 10**\n\nChoose the word or phrase that best completes the sentence.\n\n_______ the delayed shipment, the warehouse team managed to fulfill all customer orders on time.\n\n1. Despite\n2. Although\n3. However\n4. Even though\n\n---\n\n**Answer: 1. Despite**\n\n'Despite' is a preposition followed by a noun phrase — here, 'the delayed shipment.' 'Although' and 'Even though' are subordinating conjunctions and must be followed by a complete clause (subject + verb). 'However' is a conjunctive adverb that links two independent clauses separated by a period or semicolon."
+  },
+  {
+    "id": "toeic_part5_011",
+    "sentence": "The advertising campaign _______ by the marketing team last spring was the most successful in the company's history.",
+    "options": ["launch", "launched", "launching", "to launch"],
+    "answer": "launched",
+    "explanation": "A past participle is needed to form a reduced relative clause modifying 'campaign.' The full form would be 'that was launched by the marketing team.' 'Launch' (base form) and 'to launch' (infinitive) cannot modify a noun this way. 'Launching' would indicate the campaign was actively launching something, which changes the meaning.",
+    "response": "---\n**Question 11**\n\nChoose the word or phrase that best completes the sentence.\n\nThe advertising campaign _______ by the marketing team last spring was the most successful in the company's history.\n\n1. launch\n2. launched\n3. launching\n4. to launch\n\n---\n\n**Answer: 2. launched**\n\nThis is a reduced relative clause. The full version is: 'The advertising campaign that was launched by the marketing team...' The past participle 'launched' (passive meaning) acts as an adjective modifying 'campaign.' 'Launching' would imply the campaign was doing the launching (active meaning), which doesn't make sense here."
+  },
+  {
+    "id": "toeic_part5_012",
+    "sentence": "Please send the revised proposal to Ms. Patel _______ you have received approval from your supervisor.",
+    "options": ["while", "once", "during", "despite"],
+    "answer": "once",
+    "explanation": "'Once' is a conjunction meaning 'as soon as' or 'after,' indicating that one action follows another. It fits the sequence: first get approval, then send the proposal. 'While' means simultaneously happening. 'During' is a preposition, not a conjunction. 'Despite' indicates contrast, which is not the intended meaning.",
+    "response": "---\n**Question 12**\n\nChoose the word or phrase that best completes the sentence.\n\nPlease send the revised proposal to Ms. Patel _______ you have received approval from your supervisor.\n\n1. while\n2. once\n3. during\n4. despite\n\n---\n\n**Answer: 2. once**\n\n'Once' functions as a conjunction meaning 'as soon as' or 'after a condition is met.' The sentence describes a sequence: first receive approval, then send the proposal. 'While' implies two things happening at the same time. 'During' is a preposition and must be followed by a noun phrase, not a clause. 'Despite' expresses contrast."
+  },
+  {
+    "id": "toeic_part5_013",
+    "sentence": "The finance team is currently _______ the budget projections for the upcoming fiscal year.",
+    "options": ["revision", "revised", "revise", "revising"],
+    "answer": "revising",
+    "explanation": "The sentence uses 'is currently,' which signals the present progressive tense: 'is + present participle (-ing).' 'Revising' is the correct present participle. 'Revision' is a noun. 'Revised' is a past tense or past participle. 'Revise' is the base form, which cannot follow 'is currently.'",
+    "response": "---\n**Question 13**\n\nChoose the word or phrase that best completes the sentence.\n\nThe finance team is currently _______ the budget projections for the upcoming fiscal year.\n\n1. revision\n2. revised\n3. revise\n4. revising\n\n---\n\n**Answer: 4. revising**\n\nThe present progressive tense requires 'is + verb-ing.' The word 'currently' reinforces that an action is in progress right now. 'Revising' is the present participle. 'Revision' is a noun. 'Revised' is a past form. 'Revise' is the base verb, which cannot follow the auxiliary 'is' directly."
+  },
+  {
+    "id": "toeic_part5_014",
+    "sentence": "The new employee wellness program has received _______ feedback from staff across all departments.",
+    "options": ["enthusiasm", "enthusiast", "enthusiastic", "enthusiastically"],
+    "answer": "enthusiastic",
+    "explanation": "An adjective is needed to modify the noun 'feedback.' 'Enthusiastic' is the adjective form. 'Enthusiasm' is a noun. 'Enthusiast' is a noun referring to a person. 'Enthusiastically' is an adverb and cannot modify a noun.",
+    "response": "---\n**Question 14**\n\nChoose the word or phrase that best completes the sentence.\n\nThe new employee wellness program has received _______ feedback from staff across all departments.\n\n1. enthusiasm\n2. enthusiast\n3. enthusiastic\n4. enthusiastically\n\n---\n\n**Answer: 3. enthusiastic**\n\nThe blank is between a verb ('received') and a noun ('feedback'), so an adjective is needed to describe the feedback. 'Enthusiastic' is the adjective. 'Enthusiasm' is a noun (uncountable). 'Enthusiast' is a noun referring to a person who is keen about something. 'Enthusiastically' is an adverb and modifies verbs or adjectives, not nouns."
+  },
+  {
+    "id": "toeic_part5_015",
+    "sentence": "Neither the CEO nor the regional directors _______ available to comment on the merger announcement.",
+    "options": ["was", "were", "is", "has been"],
+    "answer": "were",
+    "explanation": "With 'neither...nor,' the verb agrees with the subject closer to it, which is 'the regional directors' (plural). Therefore, the plural verb 'were' is correct. If the closer subject were singular, the verb would be singular. This is called the 'proximity rule' or 'the rule of the nearest subject.'",
+    "response": "---\n**Question 15**\n\nChoose the word or phrase that best completes the sentence.\n\nNeither the CEO nor the regional directors _______ available to comment on the merger announcement.\n\n1. was\n2. were\n3. is\n4. has been\n\n---\n\n**Answer: 2. were**\n\nWith correlative conjunctions 'neither...nor' and 'either...or,' the verb agrees with the subject that is closest to it (the proximity rule). Here, 'the regional directors' (plural) is closest to the verb, so 'were' (plural past tense) is correct. If the sentence were 'Neither the directors nor the CEO,' the verb would be 'was.'"
+  },
+  {
+    "id": "toeic_part5_016",
+    "sentence": "Customers _______ have registered on the website will receive an exclusive 20% discount on their first purchase.",
+    "options": ["who", "which", "whom", "whose"],
+    "answer": "who",
+    "explanation": "'Who' is a relative pronoun used for people and functions as the subject of the relative clause ('who have registered'). 'Which' refers to things, not people. 'Whom' is used when the relative pronoun is the object of the clause (e.g., 'customers whom we contacted'). 'Whose' indicates possession.",
+    "response": "---\n**Question 16**\n\nChoose the word or phrase that best completes the sentence.\n\nCustomers _______ have registered on the website will receive an exclusive 20% discount on their first purchase.\n\n1. who\n2. which\n3. whom\n4. whose\n\n---\n\n**Answer: 1. who**\n\n'Who' is the subject relative pronoun for people. In the clause 'who have registered on the website,' 'who' acts as the subject performing the action of registering. 'Which' is for things. 'Whom' is the object form (e.g., the customer whom we contacted). 'Whose' shows possession (e.g., customers whose accounts are active)."
+  },
+  {
+    "id": "toeic_part5_017",
+    "sentence": "Mr. Thompson suggested _______ the conference to a larger venue to accommodate more attendees.",
+    "options": ["move", "to move", "moving", "moved"],
+    "answer": "moving",
+    "explanation": "The verb 'suggest' is followed by a gerund (-ing form), not an infinitive. 'Suggest moving' is correct. Common verbs that take gerunds: suggest, recommend, avoid, consider, enjoy, finish. 'Suggest to move' is a common learner error. 'Moved' (past participle) and 'move' (bare infinitive) do not fit after 'suggest.'",
+    "response": "---\n**Question 17**\n\nChoose the word or phrase that best completes the sentence.\n\nMr. Thompson suggested _______ the conference to a larger venue to accommodate more attendees.\n\n1. move\n2. to move\n3. moving\n4. moved\n\n---\n\n**Answer: 3. moving**\n\n'Suggest' must be followed by a gerund (-ing), not an infinitive. This is one of the most frequently tested grammar points on TOEIC. Other verbs that take gerunds: recommend, avoid, consider, enjoy, finish, mind. A common mistake is 'suggest to move,' which is incorrect in standard English."
+  },
+  {
+    "id": "toeic_part5_018",
+    "sentence": "The client requested that all invoices _______ within 30 days of the delivery date.",
+    "options": ["settled", "be settled", "are settled", "settle"],
+    "answer": "be settled",
+    "explanation": "After verbs of request, demand, or recommendation (request, insist, suggest, recommend), English uses the subjunctive mood: 'that + subject + base verb.' The passive subjunctive is 'be + past participle,' so 'be settled' is correct. 'Are settled' (indicative) and 'settled' (past) do not follow this pattern.",
+    "response": "---\n**Question 18**\n\nChoose the word or phrase that best completes the sentence.\n\nThe client requested that all invoices _______ within 30 days of the delivery date.\n\n1. settled\n2. be settled\n3. are settled\n4. settle\n\n---\n\n**Answer: 2. be settled**\n\nAfter verbs like request, demand, insist, and recommend, English uses the subjunctive mood in a 'that' clause: subject + base form of verb. Because 'invoices' receive the action (passive), the structure is 'be + past participle' = 'be settled.' This pattern appears on TOEIC regularly. 'Are settled' uses the indicative mood, which is not used in this subjunctive construction."
+  },
+  {
+    "id": "toeic_part5_019",
+    "sentence": "The product recall notice was sent to _______ had purchased the affected model within the last two years.",
+    "options": ["who", "whom", "whoever", "whomever"],
+    "answer": "whoever",
+    "explanation": "'Whoever' is needed because it functions as the subject of the embedded clause 'whoever had purchased.' The entire noun clause 'whoever had purchased...' acts as the object of the preposition 'to.' 'Whoever' (subject case) is correct because it is the subject inside the clause. 'Whomever' would be used if the relative pronoun were the object within the clause.",
+    "response": "---\n**Question 19**\n\nChoose the word or phrase that best completes the sentence.\n\nThe product recall notice was sent to _______ had purchased the affected model within the last two years.\n\n1. who\n2. whom\n3. whoever\n4. whomever\n\n---\n\n**Answer: 3. whoever**\n\n'Whoever' introduces a noun clause that functions as the object of the preposition 'to.' Inside the clause, 'whoever' acts as the subject of 'had purchased,' so the subject form is correct. Think of it this way: 'to [whoever had purchased]' = 'to [him/her who had purchased].' 'Whomever' would be correct if the pronoun were the object inside the clause (e.g., 'whomever we contacted')."
+  },
+  {
+    "id": "toeic_part5_020",
+    "sentence": "The seminar on effective negotiation skills was _______ attended than the previous workshop on time management.",
+    "options": ["more widely", "most widely", "much wide", "wider"],
+    "answer": "more widely",
+    "explanation": "A comparative adverb is needed to complete 'than.' 'Widely' is an adverb modifying 'attended,' and its comparative form is 'more widely.' 'Most widely' is superlative. 'Much wide' is not grammatical. 'Wider' is an adjective, not an adverb, and cannot modify the past participle 'attended.'",
+    "response": "---\n**Question 20**\n\nChoose the word or phrase that best completes the sentence.\n\nThe seminar on effective negotiation skills was _______ attended than the previous workshop on time management.\n\n1. more widely\n2. most widely\n3. much wide\n4. wider\n\n---\n\n**Answer: 1. more widely**\n\nThe word 'attended' is a past participle acting as an adjective, and it needs to be modified by an adverb. 'Widely' is the correct adverb, and its comparative form is 'more widely' (multi-syllable adverbs use 'more'). The word 'than' confirms a comparison between two items, ruling out the superlative 'most widely.' 'Wider' is an adjective and cannot modify a participle."
+  },
+  {
+    "id": "toeic_part5_021",
+    "sentence": "The company will consider _______ additional staff if the new project wins the government contract.",
+    "options": ["hire", "to hire", "hiring", "hired"],
+    "answer": "hiring",
+    "explanation": "The verb 'consider' is always followed by a gerund (-ing form). 'Consider hiring' is correct. This is a fixed verb pattern. Other verbs in this category: enjoy, finish, avoid, delay, suggest, recommend. 'Consider to hire' is a common error to avoid.",
+    "response": "---\n**Question 21**\n\nChoose the word or phrase that best completes the sentence.\n\nThe company will consider _______ additional staff if the new project wins the government contract.\n\n1. hire\n2. to hire\n3. hiring\n4. hired\n\n---\n\n**Answer: 3. hiring**\n\n'Consider' is always followed by a gerund (-ing form). 'Consider hiring' is the correct pattern. This is one of the most predictable TOEIC grammar points: verbs like consider, enjoy, avoid, suggest, finish, and recommend are always followed by the gerund, never the infinitive. 'Consider to hire' is incorrect."
+  },
+  {
+    "id": "toeic_part5_022",
+    "sentence": "The renovation of the head office building _______ for approximately six months, starting in March.",
+    "options": ["is expected to last", "expects to last", "is expecting to last", "expected lasting"],
+    "answer": "is expected to last",
+    "explanation": "The passive construction 'is expected to + base verb' is correct. The subject 'renovation' does not expect anything; it is expected (by people) to last a certain time. The passive infinitive 'is expected to last' captures this meaning. 'Expects to last' (active) would require the renovation to be capable of expecting, which is illogical.",
+    "response": "---\n**Question 22**\n\nChoose the word or phrase that best completes the sentence.\n\nThe renovation of the head office building _______ for approximately six months, starting in March.\n\n1. is expected to last\n2. expects to last\n3. is expecting to last\n4. expected lasting\n\n---\n\n**Answer: 1. is expected to last**\n\nThe passive voice 'is expected to last' is needed because the subject 'renovation' is inanimate — people expect it to last, so the passive is logically appropriate. This is a common business English structure: 'The project is expected to be completed by...' The active form 'expects to last' implies the renovation is capable of expecting, which is incorrect."
+  },
+  {
+    "id": "toeic_part5_023",
+    "sentence": "_______ the sales figures presented at the meeting, the Western region outperformed all other divisions.",
+    "options": ["Basing on", "Based on", "On the basis", "Basis of"],
+    "answer": "Based on",
+    "explanation": "'Based on' is a fixed participial phrase meaning 'using something as a foundation or source.' It correctly introduces the supporting data ('the sales figures'). 'Basing on' is non-standard. 'On the basis' requires 'of' after it and cannot directly precede a noun phrase without that preposition. 'Basis of' is incomplete.",
+    "response": "---\n**Question 23**\n\nChoose the word or phrase that best completes the sentence.\n\n_______ the sales figures presented at the meeting, the Western region outperformed all other divisions.\n\n1. Basing on\n2. Based on\n3. On the basis\n4. Basis of\n\n---\n\n**Answer: 2. Based on**\n\n'Based on' is a fixed participial phrase used to introduce evidence or criteria. It is always followed directly by a noun phrase. 'Basing on' is not standard English. 'On the basis' requires 'of' to complete it (e.g., 'on the basis of the sales figures'). In TOEIC, 'based on' appears frequently in business reports and analytical statements."
+  },
+  {
+    "id": "toeic_part5_024",
+    "sentence": "The customer service representative handled the complaint _______ and resolved the issue to the client's satisfaction.",
+    "options": ["profession", "professional", "professionally", "professionalize"],
+    "answer": "professionally",
+    "explanation": "An adverb is required to modify the verb 'handled.' 'Professionally' is the adverb form of 'professional.' 'Profession' is a noun referring to an occupation. 'Professional' is an adjective or noun. 'Professionalize' is a verb meaning to make something professional.",
+    "response": "---\n**Question 24**\n\nChoose the word or phrase that best completes the sentence.\n\nThe customer service representative handled the complaint _______ and resolved the issue to the client's satisfaction.\n\n1. profession\n2. professional\n3. professionally\n4. professionalize\n\n---\n\n**Answer: 3. professionally**\n\nThe blank follows the verb 'handled' and modifies how the action was done, so an adverb is needed. 'Professionally' is the adverb derived from the adjective 'professional.' 'Profession' and 'professional' (when used as a noun) refer to occupations or people. 'Professionalize' is a verb. Adverbs answering 'how?' typically end in '-ly.'"
+  },
+  {
+    "id": "toeic_part5_025",
+    "sentence": "The board requires _______ all department heads submit a written summary of their quarterly objectives.",
+    "options": ["what", "that", "which", "how"],
+    "answer": "that",
+    "explanation": "After verbs of requirement or demand (require, demand, insist, request), a 'that' clause is used. 'The board requires that all department heads submit...' is the correct subjunctive construction. 'What' introduces an indirect question or a noun clause about a thing. 'Which' is used for choices. 'How' introduces manner.",
+    "response": "---\n**Question 25**\n\nChoose the word or phrase that best completes the sentence.\n\nThe board requires _______ all department heads submit a written summary of their quarterly objectives.\n\n1. what\n2. that\n3. which\n4. how\n\n---\n\n**Answer: 2. that**\n\nAfter verbs like require, demand, insist, and suggest, use the structure: verb + that + subject + base verb (subjunctive). Here: 'requires that all department heads submit.' The conjunction 'that' introduces the noun clause. 'What' would change the meaning to a question about things. 'Which' implies a choice. 'How' describes manner."
+  },
+  {
+    "id": "toeic_part5_026",
+    "sentence": "The logistics coordinator confirmed that all shipments _______ before the warehouse closes at 5 P.M.",
+    "options": ["will be dispatched", "are dispatching", "dispatched", "dispatch"],
+    "answer": "will be dispatched",
+    "explanation": "The sentence describes a future action (before 5 P.M.) in the passive voice (shipments are the receivers of dispatching). 'Will be dispatched' is the future passive, which fits. 'Are dispatching' is active present progressive and illogical because shipments cannot dispatch. 'Dispatched' alone is past tense. 'Dispatch' is the base form with no auxiliary.",
+    "response": "---\n**Question 26**\n\nChoose the word or phrase that best completes the sentence.\n\nThe logistics coordinator confirmed that all shipments _______ before the warehouse closes at 5 P.M.\n\n1. will be dispatched\n2. are dispatching\n3. dispatched\n4. dispatch\n\n---\n\n**Answer: 1. will be dispatched**\n\nThe sentence is about a future event, and 'shipments' are the receivers of the action (they get dispatched, not do the dispatching). The future passive 'will be dispatched' is correct. 'Are dispatching' is active and illogical for an inanimate subject. 'Dispatched' is past tense. Note that even though the main verb 'confirmed' is past, the embedded clause refers to a future event."
+  },
+  {
+    "id": "toeic_part5_027",
+    "sentence": "If the supplier _______ the order by Friday, the production schedule would not have been delayed.",
+    "options": ["confirmed", "had confirmed", "would confirm", "confirms"],
+    "answer": "had confirmed",
+    "explanation": "This is a Type 3 (past unreal) conditional, describing a hypothetical situation contrary to past fact. The structure is: 'If + past perfect, would have + past participle.' 'Had confirmed' (past perfect) in the if-clause pairs with 'would not have been delayed' in the main clause. This structure indicates the supplier did not confirm on time, causing the delay.",
+    "response": "---\n**Question 27**\n\nChoose the word or phrase that best completes the sentence.\n\nIf the supplier _______ the order by Friday, the production schedule would not have been delayed.\n\n1. confirmed\n2. had confirmed\n3. would confirm\n4. confirms\n\n---\n\n**Answer: 2. had confirmed**\n\nThis is a Type 3 conditional (past unreal): the supplier did not confirm, and the production was delayed. The structure is: 'If + past perfect (had confirmed), would have + past participle (would not have been delayed).' This combination signals that we are imagining a different past outcome. 'Confirmed' (simple past) belongs to Type 2 conditionals."
+  },
+  {
+    "id": "toeic_part5_028",
+    "sentence": "The new office building is located _______ walking distance of the central train station.",
+    "options": ["at", "within", "along", "toward"],
+    "answer": "within",
+    "explanation": "'Within walking distance' is a fixed phrase meaning close enough to walk to. 'Within' expresses inclusion inside a boundary or limit. 'At walking distance' is not standard. 'Along' implies movement beside something. 'Toward' indicates direction of movement.",
+    "response": "---\n**Question 28**\n\nChoose the word or phrase that best completes the sentence.\n\nThe new office building is located _______ walking distance of the central train station.\n\n1. at\n2. within\n3. along\n4. toward\n\n---\n\n**Answer: 2. within**\n\n'Within walking distance' is a fixed prepositional phrase meaning near enough to reach on foot. 'Within' expresses the idea of being inside a limit or range. Other similar fixed phrases: within budget, within reach, within the deadline. 'At walking distance' is not idiomatic. 'Along' suggests movement beside a path. 'Toward' indicates direction."
+  },
+  {
+    "id": "toeic_part5_029",
+    "sentence": "Each of the candidates _______ required to complete a skills assessment test before the final interview.",
+    "options": ["are", "were", "is", "have been"],
+    "answer": "is",
+    "explanation": "The subject is 'each,' which is always singular regardless of the noun that follows. 'Each of the candidates' takes a singular verb. 'Is required' is the correct present tense singular form. 'Are' and 'were' are plural. 'Have been' is plural and present perfect.",
+    "response": "---\n**Question 29**\n\nChoose the word or phrase that best completes the sentence.\n\nEach of the candidates _______ required to complete a skills assessment test before the final interview.\n\n1. are\n2. were\n3. is\n4. have been\n\n---\n\n**Answer: 3. is**\n\n'Each' is always grammatically singular, even when followed by 'of the candidates' (plural noun). The rule: each, every, either, neither + singular verb. So 'each of the candidates is' is correct. This is a frequent TOEIC trap — do not be distracted by the plural noun in the prepositional phrase. Compare: 'Each student is...' vs. 'All students are...'"
+  },
+  {
+    "id": "toeic_part5_030",
+    "sentence": "The director praised the team _______ its exceptional performance during the product launch event.",
+    "options": ["for", "about", "on", "at"],
+    "answer": "for",
+    "explanation": "The fixed phrase is 'praise someone for something.' The preposition 'for' indicates the reason or cause of the praise. 'Praise someone about' and 'praise someone on' are not standard collocations in this context. 'At' indicates location or a point in time, not the reason for an action.",
+    "response": "---\n**Question 30**\n\nChoose the word or phrase that best completes the sentence.\n\nThe director praised the team _______ its exceptional performance during the product launch event.\n\n1. for\n2. about\n3. on\n4. at\n\n---\n\n**Answer: 1. for**\n\n'Praise + object + for + noun/gerund' is the standard collocation. The preposition 'for' gives the reason for the praise. Similar patterns: thank someone for, congratulate someone on, blame someone for, apologize to someone for. Knowing these prepositional collocations is essential for TOEIC Part 5 success."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "toeic-part5_resp_001",
+    "keywords": ["next", "question", "another", "more", "start", "begin", "ready", "give me", "new"],
+    "user_example": "Next question please",
+    "response": "---\n**Question**\n\nChoose the word or phrase that best completes the sentence.\n\nThe regional sales manager _______ the quarterly figures to the executive team every Monday morning.\n\n1. present\n2. presents\n3. presented\n4. presenting\n\n---\n\n**Answer: 2. presents**\n\nThe subject 'the regional sales manager' is third-person singular. In the simple present tense, third-person singular subjects require the verb to add '-s.' 'Present' (no -s) would match a plural subject like 'managers.' 'Presented' is past tense. 'Presenting' is a participle and cannot serve as the main verb without an auxiliary."
+  },
+  {
+    "id": "toeic-part5_resp_002",
+    "keywords": ["explain", "why", "answer", "correct", "wrong", "understand", "confused", "make sense", "clarify"],
+    "user_example": "Can you explain why that answer is correct?",
+    "response": "---\n**Breaking Down TOEIC Part 5 Answers**\n\nEvery Part 5 question tests one specific grammar rule. Here is a fast framework to identify which rule is being tested:\n\n**Step 1 — Look at the answer choices first**\n\n| What you see | What is being tested |\n|---|---|\n| Four forms of the same root word (e.g., act / action / active / actively) | Word form (noun / verb / adjective / adverb) |\n| Same verb in different tenses | Verb tense or passive voice |\n| Different prepositions (in / on / at / by) | Preposition collocation |\n| Conjunctions (although / despite / however / because) | Connectors and conjunctions |\n| Who / whom / which / whose | Relative pronouns |\n\n**Step 2 — Read the sentence for clues**\n\nTime markers (yesterday, currently, by Friday) tell you the tense. Signal words like 'despite' or 'although' tell you the relationship between clauses.\n\n**Step 3 — Eliminate wrong options**\n\nYou do not need to be certain about the right answer — just rule out the three wrong ones.\n\nWould you like to try a practice question now?"
+  },
+  {
+    "id": "toeic-part5_resp_003",
+    "keywords": ["tip", "tips", "strategy", "strategies", "how to", "approach", "technique", "advice", "trick"],
+    "user_example": "What are some tips for Part 5?",
+    "response": "---\n**TOEIC Part 5 Strategy Guide**\n\n**The 30-second rule**\nPart 5 has 30 questions. You have about 30 seconds per question. Do not spend more than 45 seconds on any single item — mark your best guess and move on.\n\n**Read choices before the sentence**\nScanning the four options first reveals the grammar point being tested. This lets you read the sentence with a targeted focus.\n\n**Identify the grammar category**\n\n| Category | Frequency on TOEIC |\n|---|---|\n| Word form | Very high |\n| Verb tense / voice | High |\n| Prepositions | High |\n| Conjunctions | Medium |\n| Subject-verb agreement | Medium |\n| Relative pronouns | Medium |\n| Conditionals | Lower |\n\n**Watch for distractors**\nTest writers use plausible-looking wrong answers. A word that sounds right is not always grammatically correct in context.\n\n**Know your collocations**\nFixed phrases like 'responsible for,' 'based on,' 'result in,' and 'prior to' appear repeatedly. Build a list of common business English collocations.\n\nReady to practice? Just say 'next question.'"
+  },
+  {
+    "id": "toeic-part5_resp_004",
+    "keywords": ["mistake", "mistakes", "common error", "common errors", "avoid", "trap", "traps", "pitfall", "wrong"],
+    "user_example": "What are the most common mistakes in Part 5?",
+    "response": "---\n**Top 5 TOEIC Part 5 Mistakes**\n\n**1. Choosing the nearest noun as the subject**\nIn 'The quality of the reports is important,' the subject is 'quality' (singular), not 'reports.' Always find the true grammatical subject.\n\n**2. Confusing gerund vs. infinitive after verbs**\n- Gerund only: suggest, consider, avoid, enjoy, finish\n- Infinitive only: decide, plan, want, hope, need\n- Both (different meanings): stop, remember, forget\n\n**3. Using 'although' where 'despite' is needed (and vice versa)**\n- 'Although' + clause (subject + verb)\n- 'Despite' / 'In spite of' + noun phrase\n\n**4. Mixing up 'who' and 'whom'**\n- 'Who' = subject of the clause (who sent the email)\n- 'Whom' = object of the clause (whom we contacted)\n\n**5. Choosing adjective instead of adverb (or the reverse)**\nAdjectives modify nouns. Adverbs modify verbs, adjectives, or other adverbs. Check what the blank is modifying, not just what sounds natural.\n\nShall I give you a question that targets one of these areas?"
+  },
+  {
+    "id": "toeic-part5_resp_005",
+    "keywords": ["improve", "improvement", "practice", "study", "better", "get better", "learn", "progress", "how to study"],
+    "user_example": "How can I improve my Part 5 score?",
+    "response": "---\n**How to Raise Your Part 5 Score**\n\n**Daily practice (15–20 minutes)**\nConsistency beats long study sessions. Ten questions a day with review is more effective than 100 questions once a week.\n\n**Review errors systematically**\nFor each wrong answer, write down:\n1. Which grammar rule was tested\n2. Why the correct answer is right\n3. Why each wrong answer is wrong\n\nReading an explanation once is not enough — write it in your own words.\n\n**Build vocabulary in context**\nDo not memorize isolated words. Learn words in their typical business collocations:\n- submit a report / proposal / application\n- attend a conference / seminar / meeting\n- sign a contract / agreement / document\n\n**Focus on word families**\nFor any new word, learn all four forms:\n\n| Noun | Verb | Adjective | Adverb |\n|---|---|---|---|\n| productivity | produce | productive | productively |\n| efficiency | — | efficient | efficiently |\n| analysis | analyze | analytical | analytically |\n\n**Read business English**\nThe Economist, Harvard Business Review, and business news sites use the same grammar structures and vocabulary as TOEIC.\n\nWant to practice now? Say 'next question.'"
+  },
+  {
+    "id": "toeic-part5_resp_006",
+    "keywords": ["grammar", "focus", "which grammar", "what grammar", "study grammar", "grammar point", "important grammar"],
+    "user_example": "What grammar should I focus on for Part 5?",
+    "response": "---\n**TOEIC Part 5 Grammar Priority List**\n\nRanked by frequency of appearance:\n\n**Tier 1 — Must master**\n- **Word form**: Identifying whether a noun, verb, adjective, or adverb is needed\n- **Verb tense**: Simple past, present perfect, future, and progressive forms\n- **Prepositions**: Fixed collocations like 'responsible for,' 'result in,' 'agree with'\n- **Subject-verb agreement**: Especially with 'each,' 'neither...nor,' 'the number of'\n\n**Tier 2 — High value**\n- **Conjunctions**: 'although' vs. 'despite,' 'because' vs. 'since,' 'while' vs. 'once'\n- **Passive voice**: 'was approved,' 'is expected to,' 'has been completed'\n- **Relative pronouns**: 'who' vs. 'whom' vs. 'which' vs. 'whose'\n\n**Tier 3 — Good to know**\n- **Gerund vs. infinitive**: After specific verbs (suggest + -ing, plan + to)\n- **Conditionals**: Type 1 (will), Type 2 (would), Type 3 (would have)\n- **Comparatives and superlatives**: '-er than' vs. 'the most'\n- **Subjunctive mood**: After require, demand, suggest ('that it be done')\n\nWhich of these would you like to drill? Just say 'next question' and I will give you a random one."
+  },
+  {
+    "id": "toeic-part5_resp_007",
+    "keywords": ["time", "timing", "fast", "speed", "slow", "how long", "minutes", "seconds", "manage time"],
+    "user_example": "How should I manage my time in Part 5?",
+    "response": "---\n**TOEIC Part 5 Time Management**\n\n**The Numbers**\n- Part 5: 30 questions\n- Recommended total time: 10–12 minutes\n- Per question: 20–25 seconds target, 45 seconds maximum\n\n**The Right Order to Read**\n\n1. Scan the four answer choices (3 seconds) — identify the grammar point\n2. Read the full sentence once (5 seconds) — find the clue words\n3. Apply the grammar rule (5 seconds) — eliminate wrong options\n4. Mark your answer and move on (2 seconds)\n\n**When to skip**\nIf a question takes more than 30 seconds, mark your best guess and come back only if time permits. Never leave Part 5 questions blank — there is no penalty for guessing.\n\n**Time allocation across the Reading section**\n\n| Part | Questions | Recommended Time |\n|---|---|---|\n| Part 5 | 30 | 10–12 minutes |\n| Part 6 | 16 | 10 minutes |\n| Part 7 | 54 | 53–55 minutes |\n\nSaving time in Part 5 gives you more reading time in Part 7, where passages require careful attention.\n\nReady to time yourself on a practice question? Say 'next question.'"
+  },
+  {
+    "id": "toeic-part5_resp_008",
+    "keywords": ["score", "scoring", "point", "points", "how many", "result", "grade", "mark", "out of"],
+    "user_example": "How is TOEIC Part 5 scored?",
+    "response": "---\n**TOEIC Part 5 Scoring**\n\n**Basic structure**\n- Part 5 has 30 questions, each worth one raw point\n- There is no penalty for wrong answers — always guess if unsure\n- Raw scores are converted to a scaled score on the TOEIC Reading scale of 5–495\n\n**Score Targets by Level**\n\n| Target Total Score | Part 5 Correct (Approximate) |\n|---|---|\n| 600+ | 20/30 |\n| 700+ | 23/30 |\n| 800+ | 26/30 |\n| 900+ | 28–29/30 |\n\n*These are estimates. TOEIC scores depend on overall Reading section performance, not Part 5 alone.*\n\n**What affects your score the most**\n- Word form questions are the most common — mastering them has the highest return\n- Preposition questions are quick to answer if you know the collocations\n- Tense and passive voice questions reward consistent grammar study\n\n**Key point**: The TOEIC Reading section (Parts 5, 6, and 7) is timed at 75 minutes total. Finishing Part 5 efficiently protects your time for the higher-stakes Part 7 reading passages.\n\nWant to practice? Say 'next question.'"
+  },
+  {
+    "id": "toeic-part5_resp_009",
+    "keywords": ["easy", "easier", "hard", "harder", "difficult", "difficulty", "level", "beginner", "advanced", "challenge", "simple"],
+    "user_example": "Can I get a harder question?",
+    "response": "---\n**Question (Advanced)**\n\nChoose the word or phrase that best completes the sentence.\n\nHad the procurement team _______ the contract terms more carefully, the dispute with the vendor could have been avoided.\n\n1. review\n2. reviewed\n3. reviewing\n4. have reviewed\n\n---\n\n**Answer: 2. reviewed**\n\nThis is an inverted Type 3 conditional. When the word 'if' is omitted, the auxiliary verb moves before the subject: 'Had the team reviewed...' = 'If the team had reviewed...' The past perfect 'had reviewed' requires the past participle 'reviewed' after 'had.' This inverted structure is formal and appears in legal, financial, and business writing. It is one of the more advanced structures tested on TOEIC."
+  },
+  {
+    "id": "toeic-part5_resp_010",
+    "keywords": ["encourage", "encouragement", "good", "doing well", "keep going", "motivate", "motivation", "give up", "hard", "struggling", "can i", "can't", "cannot"],
+    "user_example": "This is really hard. I feel like giving up.",
+    "response": "---\n**Perspective on TOEIC Preparation**\n\nPart 5 feels difficult at first because it tests grammar rules that are rarely explained in everyday English learning. Most test-takers do not struggle because they lack ability — they struggle because they have not yet learned the specific patterns TOEIC tests repeatedly.\n\n**The good news**: Part 5 is one of the most predictable sections on the TOEIC. The same grammar categories appear on every test:\n- Word form\n- Verb tense\n- Prepositions\n- Subject-verb agreement\n- Conjunctions\n\nOnce you recognize the category being tested, the correct answer becomes much clearer.\n\n**A realistic target**: Most test-takers improve their Part 5 accuracy by 5–8 questions within 4–6 weeks of focused daily practice (15–20 minutes per day).\n\n**What to do right now**: Pick one grammar category and drill it until it feels automatic. Then move to the next.\n\nOne question at a time. Say 'next question' whenever you are ready."
+  }
+]

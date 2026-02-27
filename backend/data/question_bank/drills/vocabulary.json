@@ -1,0 +1,72 @@
+[
+  {
+    "id": "vocabulary_001",
+    "prompt": "Choose the word that best completes the sentence: The scientist's findings were _____ by multiple independent studies.",
+    "options": ["corroborated", "fabricated", "diminished", "extricated"],
+    "answer": "corroborated",
+    "response": "Vocabulary check!\n\nChoose the word that best completes the sentence: The scientist's findings were _____ by multiple independent studies.\n\n1. corroborated\n2. fabricated\n3. diminished\n4. extricated\n\nThe correct answer is: corroborated\n\n'Corroborate' means to confirm or give support to a statement or theory. 'Fabricated' means invented or made up. 'Diminished' means reduced or made smaller. 'Extricated' means freed from a difficult situation. Independent studies confirming findings is a classic use of 'corroborate'."
+  },
+  {
+    "id": "vocabulary_002",
+    "prompt": "Choose the word that best completes the sentence: The CEO's _____ remarks at the shareholder meeting caused the company's stock to drop sharply.",
+    "options": ["incendiary", "benign", "verbose", "cursory"],
+    "answer": "incendiary",
+    "response": "Vocabulary check!\n\nChoose the word that best completes the sentence: The CEO's _____ remarks at the shareholder meeting caused the company's stock to drop sharply.\n\n1. incendiary\n2. benign\n3. verbose\n4. cursory\n\nThe correct answer is: incendiary\n\n'Incendiary' means tending to stir up conflict or strong reaction - literally, something that causes fire. It fits because controversial remarks would cause a sharp market reaction. 'Benign' means harmless, 'verbose' means using too many words, and 'cursory' means hastily done without attention to detail."
+  },
+  {
+    "id": "vocabulary_003",
+    "prompt": "Choose the word that best completes the sentence: After years of litigation, the two companies reached an _____ agreement that satisfied neither side entirely.",
+    "options": ["expedient", "amicable", "acrimonious", "unilateral"],
+    "answer": "amicable",
+    "response": "Vocabulary check!\n\nChoose the word that best completes the sentence: After years of litigation, the two companies reached an _____ agreement that satisfied neither side entirely.\n\n1. expedient\n2. amicable\n3. acrimonious\n4. unilateral\n\nThe correct answer is: amicable\n\n'Amicable' means done in a friendly spirit, often used for agreements reached without hostility. 'Expedient' means convenient and practical despite possibly being improper. 'Acrimonious' means bitter and angry - the opposite of what you'd reach after agreeing. 'Unilateral' means done by one side only."
+  },
+  {
+    "id": "vocabulary_004",
+    "prompt": "Choose the word that best completes the sentence: The documentary sought to _____ the widespread misconceptions about nutrition that had persisted for decades.",
+    "options": ["perpetuate", "debunk", "validate", "trivialize"],
+    "answer": "debunk",
+    "response": "Vocabulary check!\n\nChoose the word that best completes the sentence: The documentary sought to _____ the widespread misconceptions about nutrition that had persisted for decades.\n\n1. perpetuate\n2. debunk\n3. validate\n4. trivialize\n\nThe correct answer is: debunk\n\n'Debunk' means to expose the falseness or hollowness of a myth or belief. It collocates naturally with 'misconceptions'. 'Perpetuate' means to make something continue indefinitely. 'Validate' means to confirm the truth. 'Trivialize' means to treat as less important than it is."
+  },
+  {
+    "id": "vocabulary_005",
+    "prompt": "Choose the word that best completes the sentence: His _____ approach to problem-solving often meant he overlooked obvious solutions in favor of complicated ones.",
+    "options": ["convoluted", "pragmatic", "systematic", "empirical"],
+    "answer": "convoluted",
+    "response": "Vocabulary check!\n\nChoose the word that best completes the sentence: His _____ approach to problem-solving often meant he overlooked obvious solutions in favor of complicated ones.\n\n1. convoluted\n2. pragmatic\n3. systematic\n4. empirical\n\nThe correct answer is: convoluted\n\n'Convoluted' means extremely complex and difficult to follow - it perfectly describes an approach that makes simple things complicated. 'Pragmatic' means dealing with things sensibly and practically. 'Systematic' means done according to a plan or system. 'Empirical' means based on observation and evidence."
+  },
+  {
+    "id": "vocabulary_006",
+    "prompt": "Choose the word that best completes the sentence: The politician's speech was criticized for being full of _____, impressive-sounding but ultimately meaningless statements.",
+    "options": ["platitudes", "axioms", "euphemisms", "anecdotes"],
+    "answer": "platitudes",
+    "response": "Vocabulary check!\n\nChoose the word that best completes the sentence: The politician's speech was criticized for being full of _____, impressive-sounding but ultimately meaningless statements.\n\n1. platitudes\n2. axioms\n3. euphemisms\n4. anecdotes\n\nThe correct answer is: platitudes\n\n'Platitudes' are remarks that have been used so often they have become meaningless - a staple criticism of political speeches. 'Axioms' are self-evident truths used as starting points for reasoning. 'Euphemisms' are mild or indirect expressions substituted for harsh ones. 'Anecdotes' are short personal stories."
+  },
+  {
+    "id": "vocabulary_007",
+    "prompt": "Choose the word that best completes the sentence: The new policy was designed to _____ the effects of inflation on lower-income households.",
+    "options": ["mitigate", "exacerbate", "circumvent", "precipitate"],
+    "answer": "mitigate",
+    "response": "Vocabulary check!\n\nChoose the word that best completes the sentence: The new policy was designed to _____ the effects of inflation on lower-income households.\n\n1. mitigate\n2. exacerbate\n3. circumvent\n4. precipitate\n\nThe correct answer is: mitigate\n\n'Mitigate' means to make less severe or serious - it collocates strongly with 'effects' in formal writing. 'Exacerbate' is the opposite, meaning to make worse. 'Circumvent' means to find a way around a rule or obstacle. 'Precipitate' means to cause something to happen suddenly."
+  },
+  {
+    "id": "vocabulary_008",
+    "prompt": "Choose the word that best completes the sentence: She had an _____ ability to read a room and adjust her communication style accordingly.",
+    "options": ["uncanny", "arduous", "obtuse", "cursory"],
+    "answer": "uncanny",
+    "response": "Vocabulary check!\n\nChoose the word that best completes the sentence: She had an _____ ability to read a room and adjust her communication style accordingly.\n\n1. uncanny\n2. arduous\n3. obtuse\n4. cursory\n\nThe correct answer is: uncanny\n\n'Uncanny' means strange or mysterious in an impressive way, often used to describe abilities that seem almost supernatural. 'Arduous' means demanding great effort. 'Obtuse' means annoyingly insensitive or slow to understand. 'Cursory' means hasty and not thorough."
+  },
+  {
+    "id": "vocabulary_009",
+    "prompt": "Choose the word that best completes the sentence: The merger talks were derailed by the _____ refusal of the board to consider any compromise.",
+    "options": ["intransigent", "tentative", "ambivalent", "judicious"],
+    "answer": "intransigent",
+    "response": "Vocabulary check!\n\nChoose the word that best completes the sentence: The merger talks were derailed by the _____ refusal of the board to consider any compromise.\n\n1. intransigent\n2. tentative\n3. ambivalent\n4. judicious\n\nThe correct answer is: intransigent\n\n'Intransigent' means unwilling to change one's views or agree to compromises - an ideal fit for a board refusing any compromise. 'Tentative' means not fully worked out or certain. 'Ambivalent' means having mixed feelings. 'Judicious' means having or showing good judgment."
+  },
+  {
+    "id": "vocabulary_010",
+    "prompt": "Choose the word that best completes the sentence: The author's use of _____ details about daily life in ancient Rome gave the novel an unusually vivid authenticity.",
+    "options": ["quotidian", "ephemeral", "grandiose", "nebulous"],
+    "answer": "quotidian",
+    "response": "Vocabulary check!\n\nChoose the word that best completes the sentence: The author's use of _____ details about daily life in ancient Rome gave the novel an unusually vivid authenticity.\n\n1. quotidian\n2. ephemeral\n3. grandiose\n4. nebulous\n\nThe correct answer is: quotidian\n\n'Quotidian' means ordinary or everyday - it describes the routine details of daily life, making it perfect here. 'Ephemeral' means lasting for a very short time. 'Grandiose' means impressive and ambitious in scale but often impractical. 'Nebulous' means unclear or vague."
+  }
+]

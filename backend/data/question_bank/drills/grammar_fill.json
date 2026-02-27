@@ -1,0 +1,72 @@
+[
+  {
+    "id": "grammar_fill_001",
+    "sentence": "She _____ to the store if she had known it was closed.",
+    "options": ["wouldn't have gone", "won't go", "didn't go", "hasn't gone"],
+    "answer": "wouldn't have gone",
+    "response": "Let's practice grammar! Fill in the blank:\n\nShe _____ to the store if she had known it was closed.\n\n1. wouldn't have gone\n2. won't go\n3. didn't go\n4. hasn't gone\n\nThe correct answer is: wouldn't have gone\n\nThis is the third conditional, used for unreal past situations. The structure is: if + past perfect, would + have + past participle. We use it to talk about things that didn't happen and their imagined consequences."
+  },
+  {
+    "id": "grammar_fill_002",
+    "sentence": "It is essential that every employee _____ the new safety procedures before operating the machinery.",
+    "options": ["understand", "understands", "understood", "has understood"],
+    "answer": "understand",
+    "response": "Let's practice grammar! Fill in the blank:\n\nIt is essential that every employee _____ the new safety procedures before operating the machinery.\n\n1. understand\n2. understands\n3. understood\n4. has understood\n\nThe correct answer is: understand\n\nThis is the subjunctive mood. After expressions like 'it is essential that', 'it is important that', or 'it is necessary that', we use the base form of the verb without -s, even for third-person singular subjects."
+  },
+  {
+    "id": "grammar_fill_003",
+    "sentence": "The report _____ by the committee before the board meeting takes place next Friday.",
+    "options": ["will have been reviewed", "will review", "has reviewed", "would review"],
+    "answer": "will have been reviewed",
+    "response": "Let's practice grammar! Fill in the blank:\n\nThe report _____ by the committee before the board meeting takes place next Friday.\n\n1. will have been reviewed\n2. will review\n3. has reviewed\n4. would review\n\nThe correct answer is: will have been reviewed\n\nThis is the future perfect passive. We use it when an action will be completed before a specific future time. The structure is: will + have + been + past participle. The passive is needed because the report is the object of the reviewing action."
+  },
+  {
+    "id": "grammar_fill_004",
+    "sentence": "The professor whose _____ influenced thousands of students retired last year.",
+    "options": ["research has", "research have", "researches has", "researches have"],
+    "answer": "research has",
+    "response": "Let's practice grammar! Fill in the blank:\n\nThe professor whose _____ influenced thousands of students retired last year.\n\n1. research has\n2. research have\n3. researches has\n4. researches have\n\nThe correct answer is: research has\n\nThis tests relative clauses and subject-verb agreement. 'Research' is an uncountable noun, so it takes a singular verb ('has'). The relative clause 'whose research has influenced thousands of students' modifies 'the professor'."
+  },
+  {
+    "id": "grammar_fill_005",
+    "sentence": "She told me that she _____ the project the following day.",
+    "options": ["would finish", "will finish", "finishes", "has finished"],
+    "answer": "would finish",
+    "response": "Let's practice grammar! Fill in the blank:\n\nShe told me that she _____ the project the following day.\n\n1. would finish\n2. will finish\n3. finishes\n4. has finished\n\nThe correct answer is: would finish\n\nThis is reported speech. When the reporting verb ('told') is in the past tense, the verb in the reported clause shifts back one tense. 'Will finish' in direct speech becomes 'would finish' in reported speech. 'The following day' replaces 'tomorrow' in the time reference shift."
+  },
+  {
+    "id": "grammar_fill_006",
+    "sentence": "You _____ have told me about the change in plans earlier - I wasted two hours waiting.",
+    "options": ["should", "could", "would", "might"],
+    "answer": "should",
+    "response": "Let's practice grammar! Fill in the blank:\n\nYou _____ have told me about the change in plans earlier - I wasted two hours waiting.\n\n1. should\n2. could\n3. would\n4. might\n\nThe correct answer is: should\n\nWe use 'should have + past participle' to express criticism or regret about a past action that didn't happen. It implies that telling me was the right thing to do but wasn't done. 'Could have' expresses possibility, 'might have' expresses speculation, and 'would have' is used in conditionals."
+  },
+  {
+    "id": "grammar_fill_007",
+    "sentence": "I remember _____ her at the conference, but I can't recall what we discussed.",
+    "options": ["meeting", "to meet", "met", "having met"],
+    "answer": "meeting",
+    "response": "Let's practice grammar! Fill in the blank:\n\nI remember _____ her at the conference, but I can't recall what we discussed.\n\n1. meeting\n2. to meet\n3. met\n4. having met\n\nThe correct answer is: meeting\n\nAfter 'remember' followed by a gerund (-ing form), we refer to a memory of a past event. After 'remember' followed by an infinitive (to + verb), we mean remembering to do something in the future. Since the speaker is recalling a past event, the gerund 'meeting' is correct."
+  },
+  {
+    "id": "grammar_fill_008",
+    "sentence": "Neither the manager nor the employees _____ aware of the policy change.",
+    "options": ["were", "was", "are being", "has been"],
+    "answer": "were",
+    "response": "Let's practice grammar! Fill in the blank:\n\nNeither the manager nor the employees _____ aware of the policy change.\n\n1. were\n2. was\n3. are being\n4. has been\n\nThe correct answer is: were\n\nWith 'neither...nor', the verb agrees with the subject closest to it. Since 'employees' (plural) is closest to the verb, we use the plural past tense 'were'. If the sentence were 'neither the employees nor the manager', the answer would be 'was'."
+  },
+  {
+    "id": "grammar_fill_009",
+    "sentence": "She is interested _____ applying for the position, but she is concerned _____ the long commute.",
+    "options": ["in / about", "about / in", "with / about", "in / with"],
+    "answer": "in / about",
+    "response": "Let's practice grammar! Fill in the blank:\n\nShe is interested _____ applying for the position, but she is concerned _____ the long commute.\n\n1. in / about\n2. about / in\n3. with / about\n4. in / with\n\nThe correct answer is: in / about\n\nPrepositions are fixed collocations with certain adjectives. 'Interested in' and 'concerned about' are standard adjective-preposition combinations in English. These must be memorized as set phrases rather than derived from rules."
+  },
+  {
+    "id": "grammar_fill_010",
+    "sentence": "_____ having submitted the application late, she was still considered for the role.",
+    "options": ["Despite", "Although", "Even", "However"],
+    "answer": "Despite",
+    "response": "Let's practice grammar! Fill in the blank:\n\n_____ having submitted the application late, she was still considered for the role.\n\n1. Despite\n2. Although\n3. Even\n4. However\n\nThe correct answer is: Despite\n\n'Despite' is a preposition followed by a noun phrase or gerund (e.g., 'despite having submitted'). 'Although' is a conjunction and must be followed by a full clause with a subject and verb (e.g., 'although she submitted'). 'Even' and 'However' do not fit the grammatical structure here."
+  }
+]

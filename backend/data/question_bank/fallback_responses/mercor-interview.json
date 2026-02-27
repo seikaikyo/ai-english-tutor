@@ -1,0 +1,62 @@
+[
+  {
+    "id": "mercor-interview_001",
+    "keywords": ["tell me about", "what is", "the role", "position", "job"],
+    "user_example": "Can you tell me about the role?",
+    "response": "Sure thing! So the AI Red-Teamer role is basically about stress-testing AI systems - finding edge cases, potential biases, and failure modes that normal testing might miss. You'd be probing our models to surface problematic behaviors before they reach users. We're looking for someone who's curious, creative, and a little bit adversarial in their thinking. Does that sound like something you'd be excited about?"
+  },
+  {
+    "id": "mercor-interview_002",
+    "keywords": ["mercor", "company", "what do you do", "about you"],
+    "user_example": "What does Mercor do exactly?",
+    "response": "Great question! Mercor is an AI-powered talent marketplace - we use AI to match companies with top technical talent, and we're also building tools to improve how AI hiring works at scale. The red-teaming work sits at the intersection of AI safety and our core product: we need our own AI systems to be reliable and trustworthy before we can confidently deploy them for clients. It's a pretty unique spot to be working in."
+  },
+  {
+    "id": "mercor-interview_003",
+    "keywords": ["team", "who", "work with", "colleagues"],
+    "user_example": "Who would I be working with on the team?",
+    "response": "You'd be embedded in our AI research team, which is a small, pretty senior group. You'd work closely with our ML engineers who are building the models, our product team who defines the use cases, and our trust and safety leads. It's a collaborative setup - red-teamers here aren't siloed, you'd have real visibility into how the systems work and direct influence on how they get improved based on what you find."
+  },
+  {
+    "id": "mercor-interview_004",
+    "keywords": ["day to day", "daily", "typical day", "what would i"],
+    "user_example": "What does a typical day look like in this role?",
+    "response": "Honestly it varies a lot, which is part of what makes it interesting. Some days you're designing structured attack scenarios - trying to get the model to produce harmful outputs, bypass safety guardrails, or reveal confidential information. Other days you're reviewing red-team reports from external researchers or writing up findings for the engineering team. There's also a fair amount of documentation work - capturing failure modes in a way that engineers can actually act on. No two weeks look the same."
+  },
+  {
+    "id": "mercor-interview_005",
+    "keywords": ["skills", "looking for", "qualifications", "experience", "background"],
+    "user_example": "What kind of background are you looking for?",
+    "response": "We're pretty open on the specific background, honestly. The strongest candidates we've seen come from security research, cognitive science, linguistics, or ML engineering - but the common thread is intellectual curiosity and a real knack for thinking adversarially. You need to be able to think like someone trying to break the system. Some familiarity with LLMs is definitely helpful, and being able to write clearly is essential since documentation is a big part of the job. What's your background like?"
+  },
+  {
+    "id": "mercor-interview_006",
+    "keywords": ["salary", "compensation", "pay", "package", "benefits"],
+    "user_example": "What's the compensation for this role?",
+    "response": "So the range for this role is competitive with the AI industry - we're looking at somewhere between $140k and $180k base depending on experience, plus equity. We also have a pretty solid benefits package: full health coverage, flexible remote work, a home office stipend, and a learning budget for courses or conferences. We're not the biggest company, but we try to make sure compensation reflects the seniority and impact of the work. Is that range in the ballpark for you?"
+  },
+  {
+    "id": "mercor-interview_007",
+    "keywords": ["next steps", "process", "interview", "timeline", "what happens next"],
+    "user_example": "What are the next steps in the process?",
+    "response": "After this conversation, if things look promising on both sides, the next step would be a technical interview with two members of the AI research team. That session is about an hour and involves a live red-teaming exercise - we give you a sample model output and walk through how you'd approach finding its weaknesses. After that, there's a final culture interview with our head of engineering. The whole process usually wraps up within two to three weeks. Does that timeline work for you?"
+  },
+  {
+    "id": "mercor-interview_008",
+    "keywords": ["culture", "values", "work environment", "remote", "hybrid"],
+    "user_example": "What's the culture like at Mercor?",
+    "response": "We're a pretty direct, low-bureaucracy team. People here are expected to have opinions and push back when they think something isn't right - that's especially true for red-teamers, where intellectual honesty is basically the job. We're fully remote with people across multiple time zones, so async communication is a big part of how we work. There are quarterly offsites for the full team. People tend to be self-directed and we try to minimize meetings that could be an email. Does that kind of setup appeal to you?"
+  },
+  {
+    "id": "mercor-interview_009",
+    "keywords": ["technical", "llm", "model", "ai safety", "methodology"],
+    "user_example": "What red-teaming methodologies do you use?",
+    "response": "We use a mix of structured and unstructured approaches. On the structured side, we have established attack taxonomies - prompt injection, jailbreaking, data extraction, role-playing exploits, that sort of thing. We also do adversarial probing against specific capability benchmarks. On the unstructured side, we actively encourage people to go off-script and try things that aren't in the playbook - some of the most useful findings come from unexpected angles. We also collaborate with external researchers through a bug bounty program. Is there a particular area of AI red-teaming you have the most experience with?"
+  },
+  {
+    "id": "mercor-interview_010",
+    "keywords": ["start", "when", "available", "notice period", "join"],
+    "user_example": "When could I start if I got an offer?",
+    "response": "That's great to hear you're thinking ahead! Ideally we'd like someone who can start within four to six weeks. We understand that most people have notice periods and we want to make sure you wrap up your current role properly - burning bridges isn't a good look for anyone. If you need a bit more time, we can usually be flexible. Is there anything on your end that might affect your availability to start?"
+  }
+]

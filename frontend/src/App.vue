@@ -4,6 +4,7 @@ import { useToast } from 'primevue/usetoast'
 import Toast from 'primevue/toast'
 import Select from 'primevue/select'
 import InputText from 'primevue/inputtext'
+import Password from 'primevue/password'
 import Button from 'primevue/button'
 import ToggleSwitch from 'primevue/toggleswitch'
 import ChatHistory from './components/ChatHistory.vue'
@@ -20,6 +21,7 @@ const stt = useSpeechRecognition()
 const tts = useSpeechSynthesis()
 
 const textInput = ref('')
+const showSettings = ref(false)
 
 // 語音按鈕四態
 const voiceState = computed<'idle' | 'listening' | 'processing' | 'speaking'>(() => {
@@ -132,8 +134,44 @@ function handleExport() {
           title="Clear history"
           @click="chat.clearHistory()"
         />
+        <Button
+          icon="pi pi-cog"
+          severity="secondary"
+          text
+          rounded
+          title="Settings"
+          @click="showSettings = !showSettings"
+        />
       </div>
     </header>
+
+    <!-- 設定面板 -->
+    <div v-if="showSettings" class="settings-panel">
+      <div class="setting-row">
+        <label for="api-toggle">AI Mode</label>
+        <ToggleSwitch
+          :modelValue="chat.apiEnabled.value"
+          inputId="api-toggle"
+          @update:modelValue="chat.setApiEnabled($event)"
+        />
+        <span class="setting-hint">{{ chat.apiEnabled.value ? 'ON' : 'OFF (offline)' }}</span>
+      </div>
+      <div v-if="chat.apiEnabled.value" class="setting-row">
+        <label for="api-key">API Key</label>
+        <Password
+          :modelValue="chat.apiKey.value"
+          inputId="api-key"
+          placeholder="sk-ant-..."
+          :feedback="false"
+          toggleMask
+          class="api-key-input"
+          @update:modelValue="chat.setApiKey($event)"
+        />
+      </div>
+      <p class="setting-hint">
+        {{ chat.apiEnabled.value && chat.apiKey.value ? 'AI interactive mode' : 'Practice with question bank (no API needed)' }}
+      </p>
+    </div>
 
     <!-- 對話區 -->
     <ChatHistory
@@ -243,6 +281,37 @@ function handleExport() {
 
 .text-input {
   flex: 1;
+}
+
+.settings-panel {
+  padding: 12px 16px;
+  border-bottom: 1px solid #e2e8f0;
+  background: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.setting-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.setting-row label {
+  font-size: 13px;
+  font-weight: 500;
+  min-width: 64px;
+}
+
+.setting-hint {
+  font-size: 12px;
+  color: var(--color-muted);
+}
+
+.api-key-input {
+  flex: 1;
+  max-width: 280px;
 }
 
 @media (max-width: 640px) {

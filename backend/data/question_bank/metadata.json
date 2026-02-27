@@ -1,0 +1,87 @@
+{
+  "generated_at": "2026-02-27T00:00:00",
+  "model": "claude-opus-4-6",
+  "stats": {
+    "drills": 85,
+    "fallback_responses": 50
+  },
+  "files": {
+    "drills": [
+      {
+        "file": "drills/grammar_fill.json",
+        "count": 10,
+        "level": "B2-C1",
+        "topics": ["conditionals", "subjunctive", "passive voice", "reported speech", "modals", "relative clauses", "subject-verb agreement", "prepositions", "gerunds", "conjunctions"]
+      },
+      {
+        "file": "drills/vocabulary.json",
+        "count": 10,
+        "level": "B2-C1",
+        "topics": ["academic vocabulary", "professional vocabulary", "formal adjectives", "collocations", "word meaning in context"]
+      },
+      {
+        "file": "drills/situational.json",
+        "count": 10,
+        "level": "B2-C1",
+        "topics": ["workplace feedback", "declining invitations", "apologizing", "salary negotiation", "networking", "job interviews", "complaint handling", "email writing", "meeting facilitation", "language learning advice"]
+      },
+      {
+        "file": "drills/pronunciation.json",
+        "count": 10,
+        "level": "B1-C1",
+        "topics": ["silent letters", "stress patterns", "vowel reduction", "consonant clusters", "French loanwords", "spelling-pronunciation mismatch"]
+      },
+      {
+        "file": "drills/toeic_part5.json",
+        "count": 30,
+        "level": "TOEIC 600-900",
+        "topics": ["grammar", "vocabulary", "word form", "prepositions", "verb tense"]
+      },
+      {
+        "file": "drills/toeic_part6.json",
+        "count": 15,
+        "level": "TOEIC 600-900",
+        "topics": ["text completion", "email", "memo", "notice", "letter", "advertisement"]
+      },
+      {
+        "file": "drills/toeic_part7.json",
+        "count": 15,
+        "level": "TOEIC 600-900",
+        "topics": ["reading comprehension", "email", "article", "advertisement", "notice", "chat"]
+      }
+    ],
+    "fallback_responses": [
+      {
+        "file": "fallback_responses/mercor-interview.json",
+        "count": 10,
+        "scenario": "mercor-interview",
+        "persona": "Santiago from Mercor, interviewing for AI Red-Teamer role",
+        "topics": ["role description", "company info", "team structure", "day-to-day", "required skills", "compensation", "interview process", "company culture", "technical methodology", "start date"]
+      },
+      {
+        "file": "fallback_responses/free-chat.json",
+        "count": 10,
+        "scenario": "free-chat",
+        "topics": ["greetings", "hobbies", "travel", "food and cooking", "movies and TV", "weather", "weekend plans", "work and career", "English learning tips", "culture differences"]
+      },
+      {
+        "file": "fallback_responses/toeic-part5.json",
+        "count": 10,
+        "scenario": "toeic-part5",
+        "topics": ["grammar tips", "vocabulary strategies", "time management", "common traps"]
+      },
+      {
+        "file": "fallback_responses/toeic-part6.json",
+        "count": 10,
+        "scenario": "toeic-part6",
+        "topics": ["text completion strategies", "grammar identification", "passage reading", "common traps"]
+      },
+      {
+        "file": "fallback_responses/toeic-part7.json",
+        "count": 10,
+        "scenario": "toeic-part7",
+        "topics": ["reading strategies", "scanning techniques", "time management", "passage types"]
+      }
+    ]
+  }
+}

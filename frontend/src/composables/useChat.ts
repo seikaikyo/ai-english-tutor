@@ -26,6 +26,20 @@ export function useChat() {
   const grammarMode = ref(false)
   const currentScenarioId = ref(scenarios[0].id)
 
+  // API key 管理
+  const apiEnabled = ref(localStorage.getItem('apiEnabled') === 'true')
+  const apiKey = ref(localStorage.getItem('apiKey') || '')
+
+  function setApiEnabled(value: boolean) {
+    apiEnabled.value = value
+    localStorage.setItem('apiEnabled', String(value))
+  }
+
+  function setApiKey(key: string) {
+    apiKey.value = key
+    localStorage.setItem('apiKey', key)
+  }
+
   const currentScenario = computed<Scenario>(
     () => scenarios.find(s => s.id === currentScenarioId.value) || scenarios[0]
   )
@@ -68,9 +82,16 @@ export function useChat() {
         ? currentScenario.value.systemPrompt + GRAMMAR_PROMPT_SUFFIX
         : currentScenario.value.systemPrompt
 
+      const headers: Record<string, string> = {
+        'Content-Type': 'application/json',
+      }
+      if (apiEnabled.value && apiKey.value) {
+        headers['X-Api-Key'] = apiKey.value
+      }
+
       const res = await fetch(`${API_BASE}/api/chat`, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers,
         body: JSON.stringify({
           messages: apiMessages,
           system_prompt: systemPrompt,
@@ -125,6 +146,10 @@ export function useChat() {
     messages,
     isLoading,
     grammarMode,
+    apiEnabled,
+    apiKey,
+    setApiEnabled,
+    setApiKey,
     currentScenario,
     currentScenarioId,
     scenarios,

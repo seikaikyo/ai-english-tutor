@@ -1,0 +1,62 @@
+[
+  {
+    "id": "free-chat_001",
+    "keywords": ["hello", "hi", "hey", "good morning", "good afternoon"],
+    "user_example": "Hey, how are you?",
+    "response": "Hey! I'm doing great, thanks for asking. What's on your mind today? We can talk about pretty much anything - current events, hobbies, travel, books, whatever you feel like. I'm here to chat and help you practice your English along the way. What sounds good to you?"
+  },
+  {
+    "id": "free-chat_002",
+    "keywords": ["hobby", "hobbies", "free time", "spare time", "interests"],
+    "user_example": "What do you do in your free time?",
+    "response": "I love that question - hobbies say a lot about a person! Me, I'd probably spend every free moment reading and hiking if I could. What about you? Do you have any hobbies you're really into right now, or maybe something you've been wanting to try? I'm curious whether you prefer activities that get you outdoors or ones where you can just unwind at home."
+  },
+  {
+    "id": "free-chat_003",
+    "keywords": ["travel", "trip", "visited", "country", "destination"],
+    "user_example": "I love traveling. Do you have any travel recommendations?",
+    "response": "Oh, travel is one of my favorite topics! There are so many incredible places. If you're into history and architecture, Portugal is absolutely worth a visit - Lisbon in particular has this wonderful energy without feeling too touristy. If you want something more off the beaten path, Georgia (the country, not the US state) has been on a lot of people's radar lately for its food, wine, and mountains. Where have you traveled that you really loved, and what kind of trip are you thinking about next?"
+  },
+  {
+    "id": "free-chat_004",
+    "keywords": ["food", "eat", "restaurant", "cuisine", "cooking"],
+    "user_example": "I really enjoy cooking. What's your favorite type of food?",
+    "response": "Cooking is such a great skill to have! There's something really satisfying about making something from scratch. If I had to pick a favorite cuisine, I'd probably go with Japanese - the balance of simplicity and precision is fascinating, and the range is massive from ramen to sushi to izakaya food. Do you tend to cook a particular style, or do you experiment with different cuisines? And what's a dish you've been proud of recently?"
+  },
+  {
+    "id": "free-chat_005",
+    "keywords": ["movie", "film", "watch", "series", "show", "netflix"],
+    "user_example": "I've been watching a lot of movies lately. Any recommendations?",
+    "response": "I'm always happy to talk films! It really depends on the mood. For something thought-provoking, 'Everything Everywhere All at Once' is unlike anything else out there. If you want a gripping thriller, 'Parasite' holds up brilliantly even if you already know the twist. For TV series, 'Succession' is endlessly quotable and great for learning formal English in corporate settings. What kind of films or shows are you usually drawn to - genre, tone, anything like that? I can narrow it down."
+  },
+  {
+    "id": "free-chat_006",
+    "keywords": ["weather", "cold", "hot", "rain", "sunny", "season"],
+    "user_example": "The weather has been really strange lately.",
+    "response": "It really has been all over the place in a lot of places! Weather is actually a fascinating topic for language learners because English has so many expressions for it. We say 'it's raining cats and dogs' for heavy rain, or 'under the weather' when we feel ill. What's it like where you are right now? Are you someone who prefers the summer heat or the crispness of autumn and winter? I find people have surprisingly strong opinions about this."
+  },
+  {
+    "id": "free-chat_007",
+    "keywords": ["weekend", "plans", "this week", "holiday", "day off"],
+    "user_example": "I don't have any plans this weekend. Any suggestions?",
+    "response": "A free weekend is actually such a luxury! Depending on your energy level, I'd say: if you want to be productive, try visiting somewhere local you've never been - even in your own city there are usually spots people overlook. If you want to completely unwind, a movie marathon at home with good food is genuinely underrated. Or if you want to combine English practice with fun, watching a series in English without subtitles is surprisingly effective. What do your weekends usually look like - do you like to keep busy or take it slow?"
+  },
+  {
+    "id": "free-chat_008",
+    "keywords": ["work", "job", "career", "office", "boss", "colleagues"],
+    "user_example": "Work has been really stressful lately.",
+    "response": "Sorry to hear that - work stress has a way of bleeding into everything else. It's worth asking whether it's a volume problem (too much to do), a relationship problem (difficult people), or a direction problem (not feeling like the work matters). Each one needs a different approach. What's been the main source of stress for you? Sometimes just talking it through can help clarify what's actually going on. And separately - is English something you use at work, or more for personal reasons?"
+  },
+  {
+    "id": "free-chat_009",
+    "keywords": ["english", "learning", "improve", "practice", "study", "tips"],
+    "user_example": "Do you have any tips for improving my English?",
+    "response": "Absolutely - and the fact that you're having conversations in English right now is already one of the best things you can do. The single biggest accelerator most learners overlook is consuming content that's slightly above their level: podcasts, news, or shows where you catch about 80% and have to work for the rest. The discomfort is where the growth happens. Writing regularly also helps a lot - even a short journal entry in English each day builds fluency faster than you'd expect. What feels like your biggest challenge right now - speaking, vocabulary, grammar, something else?"
+  },
+  {
+    "id": "free-chat_010",
+    "keywords": ["culture", "difference", "country", "american", "british", "english"],
+    "user_example": "I'm curious about the differences between American and British culture.",
+    "response": "That's a great topic and one that comes up constantly in language learning! The differences go deeper than just spelling and vocabulary - though those are real ('colour' vs 'color', 'lift' vs 'elevator'). British English tends toward understatement: 'not bad' often means 'really quite good'. American English tends to be more direct and enthusiastic. Culturally, humour and self-deprecation play a bigger role in British conversation, while Americans tend to be warmer and more openly friendly with strangers. Are there any specific expressions or cultural moments that have confused you? I'd love to help explain them."
+  }
+]
