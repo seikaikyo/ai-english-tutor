@@ -4,6 +4,8 @@ Voice-first English speaking practice tool built for interview preparation. Simu
 
 Built this to prep for a remote AI Red Teamer position -- needed a way to rehearse English interview conversations with instant feedback on grammar mistakes.
 
+![Demo](docs/demo.gif)
+
 ## What it does
 
 - **Scenario simulation** -- practice with pre-configured conversation contexts (e.g. recruiter intro call) or free chat
