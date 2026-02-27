@@ -2,8 +2,8 @@
   "generated_at": "2026-02-27T00:00:00",
   "model": "claude-opus-4-6",
   "stats": {
-    "drills": 85,
-    "fallback_responses": 50
+    "drills": 40,
+    "fallback_responses": 20
   },
   "files": {
     "drills": [
@@ -30,24 +30,6 @@
         "count": 10,
         "level": "B1-C1",
         "topics": ["silent letters", "stress patterns", "vowel reduction", "consonant clusters", "French loanwords", "spelling-pronunciation mismatch"]
-      },
-      {
-        "file": "drills/toeic_part5.json",
-        "count": 30,
-        "level": "TOEIC 600-900",
-        "topics": ["grammar", "vocabulary", "word form", "prepositions", "verb tense"]
-      },
-      {
-        "file": "drills/toeic_part6.json",
-        "count": 15,
-        "level": "TOEIC 600-900",
-        "topics": ["text completion", "email", "memo", "notice", "letter", "advertisement"]
-      },
-      {
-        "file": "drills/toeic_part7.json",
-        "count": 15,
-        "level": "TOEIC 600-900",
-        "topics": ["reading comprehension", "email", "article", "advertisement", "notice", "chat"]
       }
     ],
     "fallback_responses": [
@@ -63,24 +45,6 @@
         "count": 10,
         "scenario": "free-chat",
         "topics": ["greetings", "hobbies", "travel", "food and cooking", "movies and TV", "weather", "weekend plans", "work and career", "English learning tips", "culture differences"]
-      },
-      {
-        "file": "fallback_responses/toeic-part5.json",
-        "count": 10,
-        "scenario": "toeic-part5",
-        "topics": ["grammar tips", "vocabulary strategies", "time management", "common traps"]
-      },
-      {
-        "file": "fallback_responses/toeic-part6.json",
-        "count": 10,
-        "scenario": "toeic-part6",
-        "topics": ["text completion strategies", "grammar identification", "passage reading", "common traps"]
-      },
-      {
-        "file": "fallback_responses/toeic-part7.json",
-        "count": 10,
-        "scenario": "toeic-part7",
-        "topics": ["reading strategies", "scanning techniques", "time management", "passage types"]
       }
     ]
   }

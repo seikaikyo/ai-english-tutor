@@ -22,23 +22,12 @@ DATA_DIR = Path(__file__).parent.parent / 'data' / 'question_bank'
 class QuestionBankService:
     """英語題庫與 fallback 回應服務"""
 
-    # TOEIC drill types 對應的 scenario ID
-    TOEIC_SCENARIO_MAP = {
-        'toeic-part5': 'toeic_part5',
-        'toeic-part6': 'toeic_part6',
-        'toeic-part7': 'toeic_part7',
-        'toeic-mixed': None,  # 從所有 toeic_ drills 隨機選
-    }
-
     def __init__(self):
         self._drills: dict[str, list[dict]] = {
             'grammar_fill': [],
             'vocabulary': [],
             'situational': [],
             'pronunciation': [],
-            'toeic_part5': [],
-            'toeic_part6': [],
-            'toeic_part7': [],
         }
         self._fallback_responses: dict[str, list[dict]] = {}
         self._used_drill_ids: set[str] = set()
@@ -94,15 +83,6 @@ class QuestionBankService:
             return 'mercor-interview'
         if 'free chat' in prompt_lower or 'conversation partner' in prompt_lower:
             return 'free-chat'
-        # TOEIC 場景偵測
-        if 'toeic' in prompt_lower:
-            if 'part 5' in prompt_lower or 'incomplete sentences' in prompt_lower:
-                return 'toeic-part5'
-            if 'part 6' in prompt_lower or 'text completion' in prompt_lower:
-                return 'toeic-part6'
-            if 'part 7' in prompt_lower or 'reading comprehension' in prompt_lower:
-                return 'toeic-part7'
-            return 'toeic-mixed'
         return None
 
     def find_fallback_response(self, scenario: str, user_message: str) -> str | None:
@@ -186,47 +166,14 @@ class QuestionBankService:
             )
         return question.get('response', 'Practice question not available.')
 
-    def get_toeic_drill(self, scenario: str) -> str:
-        """取得 TOEIC 題目"""
-        drill_type = self.TOEIC_SCENARIO_MAP.get(scenario)
-
-        if drill_type is None:
-            # toeic-mixed: 從所有 toeic_ drills 隨機選
-            toeic_types = [t for t in self._drills if t.startswith('toeic_') and self._drills[t]]
-            if not toeic_types:
-                return "No TOEIC questions available. Please try again later."
-            drill_type = random.choice(toeic_types)
-
-        questions = self._drills.get(drill_type, [])
-        if not questions:
-            return f"No {drill_type} questions available. Please try again later."
-
-        unused = [q for q in questions if q.get('id') not in self._used_drill_ids]
-        if not unused:
-            # 該類型用完就重置
-            for q in questions:
-                self._used_drill_ids.discard(q.get('id', ''))
-            unused = questions.copy()
-
-        question = random.choice(unused)
-        if question.get('id'):
-            self._used_drill_ids.add(question['id'])
-
-        return question.get('response', 'Question not available.')
-
     def get_fallback_reply(self, system_prompt: str, user_message: str) -> str:
         """取得 fallback 回覆（主要入口）
 
         1. 偵測場景
-        2. TOEIC 場景 → 直接出 TOEIC 題
-        3. 其他場景 → keyword 匹配預建回應
-        4. 都沒匹配 → 出一般練習題
+        2. keyword 匹配預建回應
+        3. 都沒匹配 → 出一般練習題
         """
         scenario = self.detect_scenario(system_prompt)
-
-        # TOEIC 場景直接出題
-        if scenario and scenario.startswith('toeic'):
-            return self.get_toeic_drill(scenario)
 
         if scenario:
             matched = self.find_fallback_response(scenario, user_message)
