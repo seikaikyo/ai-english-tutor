@@ -34,10 +34,10 @@
     ],
     "fallback_responses": [
       {
-        "file": "fallback_responses/mercor-interview.json",
+        "file": "fallback_responses/interview-prep.json",
         "count": 10,
-        "scenario": "mercor-interview",
-        "persona": "Santiago from Mercor, interviewing for AI Red-Teamer role",
+        "scenario": "interview-prep",
+        "persona": "Generic interviewer for a technology company role",
         "topics": ["role description", "company info", "team structure", "day-to-day", "required skills", "compensation", "interview process", "company culture", "technical methodology", "start date"]
       },
       {

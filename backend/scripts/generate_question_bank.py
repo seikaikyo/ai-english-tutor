@@ -35,7 +35,7 @@ DRILL_TYPES = [
 ]
 
 SCENARIOS = [
-    ('mercor-interview', 20, 'Mercor recruiter interview (Santiago, AI Red-Teamer role)'),
+    ('interview-prep', 20, 'generic job interview preparation'),
     ('free-chat', 20, 'casual free conversation'),
 ]
 
@@ -141,7 +141,7 @@ Format as JSON array (no markdown code block):
     "id": "{scenario}_001",
     "keywords": ["tell me about", "what is", "describe"],
     "user_example": "Can you tell me about the role?",
-    "response": "The AI Red-Teamer role involves testing AI systems for potential vulnerabilities and biases. You'd be working with cutting-edge language models to identify edge cases and improve safety. It's a great fit for someone who enjoys creative problem-solving!"
+    "response": "This role involves working closely with the team to tackle key challenges in our domain. You'd be collaborating across functions and contributing to impactful projects. It's a great fit for someone who enjoys problem-solving and continuous learning!"
   }}
 ]
 

@@ -56,7 +56,7 @@ class QuestionBankService:
             for f in responses_dir.glob('*.json'):
                 try:
                     data = json.loads(f.read_text(encoding='utf-8'))
-                    scenario_name = f.stem  # 例如 mercor-interview, free-chat
+                    scenario_name = f.stem  # 例如 interview-prep, free-chat
                     if isinstance(data, list):
                         self._fallback_responses[scenario_name] = data
                     elif isinstance(data, dict) and 'responses' in data:
@@ -79,8 +79,8 @@ class QuestionBankService:
     def detect_scenario(self, system_prompt: str) -> str | None:
         """從 system_prompt 偵測場景"""
         prompt_lower = system_prompt.lower()
-        if 'mercor' in prompt_lower or 'santiago' in prompt_lower:
-            return 'mercor-interview'
+        if 'interview' in prompt_lower or 'interviewer' in prompt_lower:
+            return 'interview-prep'
         if 'free chat' in prompt_lower or 'conversation partner' in prompt_lower:
             return 'free-chat'
         return None
