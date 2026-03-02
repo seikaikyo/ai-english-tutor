@@ -85,24 +85,22 @@ class QuestionBankService:
             return 'free-chat'
         return None
 
-    def find_fallback_response(self, scenario: str, user_message: str) -> str | None:
-        """用 keyword 匹配預建回應"""
+    def _find_fallback_entry(self, scenario: str, user_message: str) -> dict | None:
+        """用 keyword 匹配預建回應，回傳完整 entry（含 response_zh）"""
         responses = self._fallback_responses.get(scenario, [])
         if not responses:
             return None
 
         msg_lower = user_message.lower().strip()
 
-        # 嘗試 keyword 匹配
         for entry in responses:
             keywords = entry.get('keywords', [])
             if any(kw.lower() in msg_lower for kw in keywords):
-                return entry.get('response', '')
+                return entry
 
-        # 匹配不到就回 None
         return None
 
-    def get_random_drill(self) -> str:
+    def get_random_drill(self, want_translation: bool = False) -> str:
         """隨機取得一題練習題，格式化為回覆文字"""
         available_types = [t for t, qs in self._drills.items() if qs]
         if not available_types:
@@ -124,7 +122,10 @@ class QuestionBankService:
         if question.get('id'):
             self._used_drill_ids.add(question['id'])
 
-        return question.get('response', self._format_drill(question, drill_type))
+        reply = question.get('response', self._format_drill(question, drill_type))
+        if want_translation:
+            return self._append_translation(reply, question.get('response_zh'))
+        return reply
 
     def _format_drill(self, question: dict, drill_type: str) -> str:
         """格式化練習題為回覆文字"""
@@ -166,6 +167,16 @@ class QuestionBankService:
             )
         return question.get('response', 'Practice question not available.')
 
+    def _has_translation_mode(self, system_prompt: str) -> bool:
+        """檢查是否啟用翻譯模式"""
+        return '---TRANSLATION_MODE---' in system_prompt
+
+    def _append_translation(self, response: str, translation: str | None) -> str:
+        """如有翻譯則附加 ---TRANSLATION--- 區塊"""
+        if translation:
+            return f"{response}\n\n---TRANSLATION---\n\n{translation}"
+        return response
+
     def get_fallback_reply(self, system_prompt: str, user_message: str) -> str:
         """取得 fallback 回覆（主要入口）
 
@@ -173,14 +184,18 @@ class QuestionBankService:
         2. keyword 匹配預建回應
         3. 都沒匹配 → 出一般練習題
         """
+        want_translation = self._has_translation_mode(system_prompt)
         scenario = self.detect_scenario(system_prompt)
 
         if scenario:
-            matched = self.find_fallback_response(scenario, user_message)
+            matched = self._find_fallback_entry(scenario, user_message)
             if matched:
-                return matched
+                reply = matched.get('response', '')
+                if want_translation:
+                    return self._append_translation(reply, matched.get('response_zh'))
+                return reply
 
-        return self.get_random_drill()
+        return self.get_random_drill(want_translation)
 
     def get_status(self) -> dict:
         """回傳題庫狀態"""

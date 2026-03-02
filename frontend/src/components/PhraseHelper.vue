@@ -1,6 +1,9 @@
 <script setup lang="ts">
+import type { Phrase } from '../config/scenarios'
+
 defineProps<{
-  phrases: string[]
+  phrases: Phrase[]
+  showZh?: boolean
 }>()
 
 const emit = defineEmits<{
@@ -13,11 +16,13 @@ const emit = defineEmits<{
     <div class="phrase-scroll">
       <button
         v-for="phrase in phrases"
-        :key="phrase"
+        :key="phrase.en"
         class="phrase-chip"
-        @click="emit('select', phrase)"
+        :title="phrase.zh"
+        @click="emit('select', phrase.en)"
       >
-        {{ phrase }}
+        <span class="phrase-en">{{ phrase.en }}</span>
+        <span v-if="showZh" class="phrase-zh">{{ phrase.zh }}</span>
       </button>
     </div>
   </div>
@@ -27,14 +32,18 @@ const emit = defineEmits<{
 .phrase-helper {
   padding: 8px 0;
   border-top: 1px solid #e2e8f0;
+  overflow: hidden;
 }
 
 .phrase-scroll {
   display: flex;
   gap: 8px;
   overflow-x: auto;
+  overflow-y: hidden;
   padding: 4px 16px;
   scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-x;
 }
 
 .phrase-scroll::-webkit-scrollbar {
@@ -52,11 +61,25 @@ const emit = defineEmits<{
   cursor: pointer;
   white-space: nowrap;
   transition: background 0.2s, border-color 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
 }
 
 .phrase-chip:hover {
   background: #f1f5f9;
   border-color: var(--color-user-bubble);
   color: var(--color-user-bubble);
+}
+
+.phrase-zh {
+  font-size: 11px;
+  color: #9ca3af;
+}
+
+.phrase-chip:hover .phrase-zh {
+  color: var(--color-user-bubble);
+  opacity: 0.7;
 }
 </style>

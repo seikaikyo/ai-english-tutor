@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { ref, computed } from 'vue'
 import type { ChatMessage } from '../composables/useChat'
 
 const props = defineProps<{
@@ -11,6 +11,7 @@ const emit = defineEmits<{
 }>()
 
 const isUser = props.message.role === 'user'
+const showTranslation = ref(false)
 
 const formattedNote = computed(() => {
   if (!props.message.grammarNote) return ''
@@ -32,6 +33,15 @@ const formattedNote = computed(() => {
       >
         <i class="pi pi-volume-up" />
       </button>
+    </div>
+    <div v-if="message.translation" class="translation-block">
+      <button class="translation-toggle" @click="showTranslation = !showTranslation">
+        <i class="pi" :class="showTranslation ? 'pi-eye-slash' : 'pi-eye'" />
+        <span>{{ showTranslation ? '隱藏翻譯' : '顯示翻譯' }}</span>
+      </button>
+      <div v-if="showTranslation" class="translation-body">
+        {{ message.translation }}
+      </div>
     </div>
     <div v-if="message.grammarNote" class="grammar-note">
       <div class="grammar-note-header">
@@ -110,6 +120,45 @@ const formattedNote = computed(() => {
 
 .speak-btn:hover {
   color: var(--color-user-bubble);
+}
+
+.translation-block {
+  max-width: 80%;
+  margin-top: 4px;
+}
+
+.translation-toggle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  background: transparent;
+  color: #6b7280;
+  font-size: 12px;
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.translation-toggle:hover {
+  color: #16a34a;
+  border-color: #16a34a;
+}
+
+.translation-toggle i {
+  font-size: 11px;
+}
+
+.translation-body {
+  margin-top: 4px;
+  padding: 8px 12px;
+  border-left: 3px solid #22c55e;
+  background: #f0fdf4;
+  border-radius: 0 8px 8px 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #374151;
 }
 
 .grammar-note {

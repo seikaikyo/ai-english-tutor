@@ -113,7 +113,11 @@ function handleExport() {
           class="scenario-select"
           @update:modelValue="handleScenarioChange"
         />
-        <div class="grammar-toggle">
+        <div class="header-toggle">
+          <label for="translate-mode">翻譯</label>
+          <ToggleSwitch v-model="chat.translationMode.value" inputId="translate-mode" />
+        </div>
+        <div class="header-toggle">
           <label for="grammar-mode">Grammar</label>
           <ToggleSwitch v-model="chat.grammarMode.value" inputId="grammar-mode" />
         </div>
@@ -188,6 +192,7 @@ function handleExport() {
     <!-- 快捷片語 -->
     <PhraseHelper
       :phrases="chat.currentScenario.value.phrases"
+      :showZh="chat.translationMode.value"
       @select="handlePhrase"
     />
 
@@ -248,7 +253,7 @@ function handleExport() {
   width: 180px;
 }
 
-.grammar-toggle {
+.header-toggle {
   display: flex;
   align-items: center;
   gap: 6px;

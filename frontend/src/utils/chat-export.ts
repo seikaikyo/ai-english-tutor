@@ -33,6 +33,14 @@ export function exportChat(messages: ChatMessage[], scenarioLabel: string) {
     lines.push('')
     lines.push(msg.content)
 
+    if (msg.translation) {
+      lines.push('')
+      lines.push('> **Translation**')
+      for (const line of msg.translation.split('\n')) {
+        lines.push(`> ${line}`)
+      }
+    }
+
     if (msg.grammarNote) {
       lines.push('')
       lines.push('> **Grammar Note**')

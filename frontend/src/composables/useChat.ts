@@ -7,6 +7,7 @@ export interface ChatMessage {
   content: string
   timestamp: number
   grammarNote?: string
+  translation?: string
 }
 
 const GRAMMAR_PROMPT_SUFFIX = `
@@ -20,11 +21,21 @@ In the grammar section:
 4. If no errors, briefly note in Traditional Chinese
 Keep corrections concise.`
 
+const TRANSLATION_PROMPT_SUFFIX = `
+---TRANSLATION_MODE---
+After your normal response (and after the grammar section if present), add a translation section.
+Use the separator "---TRANSLATION---" on its own line.
+In the translation section:
+- Translate your English response into natural Traditional Chinese (zh-TW)
+- Keep the translation concise and natural, matching the tone of the original
+- Do NOT translate the grammar notes, only the main conversational response`
+
 export function useChat() {
   const messages = ref<ChatMessage[]>([])
   const isLoading = ref(false)
   const grammarMode = ref(false)
-  const currentScenarioId = ref(scenarios[0].id)
+  const translationMode = ref(true)
+  const currentScenarioId = ref(scenarios[0]!.id)
 
   // API key 管理
   const apiEnabled = ref(localStorage.getItem('apiEnabled') === 'true')
@@ -41,7 +52,7 @@ export function useChat() {
   }
 
   const currentScenario = computed<Scenario>(
-    () => scenarios.find(s => s.id === currentScenarioId.value) || scenarios[0]
+    () => scenarios.find(s => s.id === currentScenarioId.value) ?? scenarios[0]!
   )
 
   function switchScenario(id: string) {
@@ -51,12 +62,15 @@ export function useChat() {
   }
 
   function addGreeting() {
-    const greeting = currentScenario.value.greeting
-    if (greeting) {
+    const scenario = currentScenario.value
+    if (scenario.greeting) {
       messages.value.push({
         role: 'assistant',
-        content: greeting,
+        content: scenario.greeting,
         timestamp: Date.now(),
+        ...(translationMode.value && scenario.greetingZh
+          ? { translation: scenario.greetingZh }
+          : {}),
       })
     }
   }
@@ -78,9 +92,9 @@ export function useChat() {
         content: m.content,
       }))
 
-      const systemPrompt = grammarMode.value
-        ? currentScenario.value.systemPrompt + GRAMMAR_PROMPT_SUFFIX
-        : currentScenario.value.systemPrompt
+      let systemPrompt = currentScenario.value.systemPrompt
+      if (grammarMode.value) systemPrompt += GRAMMAR_PROMPT_SUFFIX
+      if (translationMode.value) systemPrompt += TRANSLATION_PROMPT_SUFFIX
 
       const headers: Record<string, string> = {
         'Content-Type': 'application/json',
@@ -89,13 +103,18 @@ export function useChat() {
         headers['X-Api-Key'] = apiKey.value
       }
 
+      let maxTokens = 300
+      if (grammarMode.value && translationMode.value) maxTokens = 1000
+      else if (translationMode.value) maxTokens = 800
+      else if (grammarMode.value) maxTokens = 600
+
       const res = await fetch(`${API_BASE}/api/chat`, {
         method: 'POST',
         headers,
         body: JSON.stringify({
           messages: apiMessages,
           system_prompt: systemPrompt,
-          max_tokens: grammarMode.value ? 600 : 300,
+          max_tokens: maxTokens,
         }),
       })
 
@@ -106,11 +125,20 @@ export function useChat() {
       const data = await res.json()
       let reply = data.reply as string
       let grammarNote: string | undefined
+      let translation: string | undefined
 
+      // 先拆翻譯（在最後面）
+      if (translationMode.value && reply.includes('---TRANSLATION---')) {
+        const parts = reply.split('---TRANSLATION---')
+        reply = (parts[0] ?? '').trim()
+        translation = (parts[1] ?? '').trim()
+      }
+
+      // 再拆文法（在中間）
       if (grammarMode.value && reply.includes('---GRAMMAR---')) {
-        const [main, note] = reply.split('---GRAMMAR---')
-        reply = main.trim()
-        grammarNote = note.trim()
+        const parts = reply.split('---GRAMMAR---')
+        reply = (parts[0] ?? '').trim()
+        grammarNote = (parts[1] ?? '').trim()
       }
 
       messages.value.push({
@@ -118,6 +146,7 @@ export function useChat() {
         content: reply,
         timestamp: Date.now(),
         ...(grammarNote ? { grammarNote } : {}),
+        ...(translation ? { translation } : {}),
       })
 
       return reply
@@ -146,6 +175,7 @@ export function useChat() {
     messages,
     isLoading,
     grammarMode,
+    translationMode,
     apiEnabled,
     apiKey,
     setApiEnabled,
